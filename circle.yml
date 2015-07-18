@@ -10,6 +10,6 @@ machine:
     version: "6.4"
 test:
   override:
-    - xctool -workspace Example.xcworkspace -scheme Example-en -sdk iphonesimulator test
-    - xctool -workspace Example.xcworkspace -scheme Example-ja -sdk iphonesimulator test
-    - xctool -workspace Example.xcworkspace -scheme Example-fr -sdk iphonesimulator test
+    - xcodebuild test -scheme Example-en -workspace Example.xcworkspace
+    - xcodebuild test -scheme Example-ja -workspace Example.xcworkspace
+    - xcodebuild test -scheme Example-fr -workspace Example.xcworkspace

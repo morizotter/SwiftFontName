@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CCB7BBE2B7205CE22CE2142 /* Pods_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936F1EAE2802544A8F50B78B /* Pods_ExampleTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		908CE0251B5A39920009CA5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0241B5A39920009CA5D /* AppDelegate.swift */; };
 		908CE0271B5A39920009CA5D /* SystemFontsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0261B5A39920009CA5D /* SystemFontsViewController.swift */; };
 		908CE02A1B5A39920009CA5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908CE0281B5A39920009CA5D /* Main.storyboard */; };
@@ -18,7 +19,7 @@
 		908CE04A1B5A46100009CA5D /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0491B5A46100009CA5D /* Font.swift */; };
 		908CE04F1B5A46E70009CA5D /* SwiftFontFamilyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE04E1B5A46E70009CA5D /* SwiftFontFamilyViewModel.swift */; };
 		908CE0511B5A47020009CA5D /* SwiftFontFamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0501B5A47020009CA5D /* SwiftFontFamilyViewController.swift */; };
-		908CE0531B5A49D40009CA5D /* FontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0521B5A49D40009CA5D /* FontFamily.swift */; };
+		B9105F3DD4D90AC48AAAE569 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E38207D0687F517F1916E75 /* Pods_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		316EA57C460F7CD4C4FECB75 /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleTests/Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E38207D0687F517F1916E75 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77493E7A76D3BB2126318BC1 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		838BC2AB9B08F8589EECF9ED /* Pods-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleTests/Pods-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		908CE01F1B5A39920009CA5D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		908CE0231B5A39920009CA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		908CE0241B5A39920009CA5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +52,8 @@
 		908CE0491B5A46100009CA5D /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		908CE04E1B5A46E70009CA5D /* SwiftFontFamilyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFontFamilyViewModel.swift; sourceTree = "<group>"; };
 		908CE0501B5A47020009CA5D /* SwiftFontFamilyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFontFamilyViewController.swift; sourceTree = "<group>"; };
-		908CE0521B5A49D40009CA5D /* FontFamily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontFamily.swift; sourceTree = "<group>"; };
+		936F1EAE2802544A8F50B78B /* Pods_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38DB3C0699CA9D47F1941D1 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9105F3DD4D90AC48AAAE569 /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,19 +69,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CCB7BBE2B7205CE22CE2142 /* Pods_ExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45E6C826A22CEF6D9EDE1D68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E38207D0687F517F1916E75 /* Pods_Example.framework */,
+				936F1EAE2802544A8F50B78B /* Pods_ExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		908CE0161B5A39920009CA5D = {
 			isa = PBXGroup;
 			children = (
-				908CE0441B5A39B70009CA5D /* SwiftFontFamily */,
 				908CE0211B5A39920009CA5D /* Example */,
 				908CE0371B5A39920009CA5D /* ExampleTests */,
 				908CE0201B5A39920009CA5D /* Products */,
+				ED9B36CC593FAA4819088753 /* Pods */,
+				45E6C826A22CEF6D9EDE1D68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,15 +144,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		908CE0441B5A39B70009CA5D /* SwiftFontFamily */ = {
-			isa = PBXGroup;
-			children = (
-				908CE0521B5A49D40009CA5D /* FontFamily.swift */,
-			);
-			name = SwiftFontFamily;
-			path = ../SwiftFontFamily;
-			sourceTree = "<group>";
-		};
 		908CE04B1B5A46150009CA5D /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +164,17 @@
 			name = Components;
 			sourceTree = "<group>";
 		};
+		ED9B36CC593FAA4819088753 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A38DB3C0699CA9D47F1941D1 /* Pods-Example.debug.xcconfig */,
+				77493E7A76D3BB2126318BC1 /* Pods-Example.release.xcconfig */,
+				838BC2AB9B08F8589EECF9ED /* Pods-ExampleTests.debug.xcconfig */,
+				316EA57C460F7CD4C4FECB75 /* Pods-ExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 908CE03E1B5A39920009CA5D /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
+				DA019A017CAEC977709E3E29 /* Check Pods Manifest.lock */,
 				908CE01B1B5A39920009CA5D /* Sources */,
 				908CE01C1B5A39920009CA5D /* Frameworks */,
 				908CE01D1B5A39920009CA5D /* Resources */,
+				ACB2B132254F8D42F9D48506 /* Embed Pods Frameworks */,
+				6872B6DE6A6B557A7D7481D6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 908CE0411B5A39920009CA5D /* Build configuration list for PBXNativeTarget "ExampleTests" */;
 			buildPhases = (
+				08CB04FFA8C441DE37F047EF /* Check Pods Manifest.lock */,
 				908CE0301B5A39920009CA5D /* Sources */,
 				908CE0311B5A39920009CA5D /* Frameworks */,
 				908CE0321B5A39920009CA5D /* Resources */,
+				A37F5EAFB2B4F79B948D2B45 /* Embed Pods Frameworks */,
+				7F871F4485B68BB4A0A7283D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +276,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08CB04FFA8C441DE37F047EF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6872B6DE6A6B557A7D7481D6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F871F4485B68BB4A0A7283D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleTests/Pods-ExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A37F5EAFB2B4F79B948D2B45 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleTests/Pods-ExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACB2B132254F8D42F9D48506 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA019A017CAEC977709E3E29 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		908CE01B1B5A39920009CA5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -259,7 +378,6 @@
 				908CE0481B5A46060009CA5D /* Family.swift in Sources */,
 				908CE04A1B5A46100009CA5D /* Font.swift in Sources */,
 				908CE0251B5A39920009CA5D /* AppDelegate.swift in Sources */,
-				908CE0531B5A49D40009CA5D /* FontFamily.swift in Sources */,
 				908CE0461B5A3A420009CA5D /* SystemFontsViewModel.swift in Sources */,
 				908CE0511B5A47020009CA5D /* SwiftFontFamilyViewController.swift in Sources */,
 				908CE04F1B5A46E70009CA5D /* SwiftFontFamilyViewModel.swift in Sources */,
@@ -389,6 +507,7 @@
 		};
 		908CE03F1B5A39920009CA5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38DB3C0699CA9D47F1941D1 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Info.plist;
@@ -399,6 +518,7 @@
 		};
 		908CE0401B5A39920009CA5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77493E7A76D3BB2126318BC1 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Info.plist;
@@ -409,6 +529,7 @@
 		};
 		908CE0421B5A39920009CA5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838BC2AB9B08F8589EECF9ED /* Pods-ExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -428,6 +549,7 @@
 		};
 		908CE0431B5A39920009CA5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316EA57C460F7CD4C4FECB75 /* Pods-ExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -460,6 +582,7 @@
 				908CE0401B5A39920009CA5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		908CE0411B5A39920009CA5D /* Build configuration list for PBXNativeTarget "ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +591,7 @@
 				908CE0431B5A39920009CA5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

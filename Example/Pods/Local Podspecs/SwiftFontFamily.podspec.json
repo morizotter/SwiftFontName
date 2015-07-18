@@ -1,0 +1,21 @@
+{
+  "name": "SwiftFontFamily",
+  "version": "0.1.0",
+  "summary": "Pure swift OS font selectoin library.",
+  "description": "                       OS Font selection from neat Swift enum.\n",
+  "homepage": "https://github.com/morizotter/SwiftFontFamily",
+  "license": "MIT",
+  "authors": {
+    "Naoki Morita": "namorit@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/morizotter/SwiftFontFamily.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/morizotter",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "SwiftFontFamily/**/*"
+}

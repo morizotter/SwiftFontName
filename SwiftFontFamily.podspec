@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        OS Font selection from neat Swift enum.
                        DESC
-  s.homepage         = "https://github.com/morizotter"
+  s.homepage         = "https://github.com/morizotter/SwiftFontFamily"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Naoki Morita" => "namorit@gmail.com" }
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'SwiftFontFamily'
+  s.source_files = 'SwiftFontFamily/**/*'
   # s.resource_bundles = {
   #   'SwiftFontFamily' => ['Pod/Assets/*.png']
   # }

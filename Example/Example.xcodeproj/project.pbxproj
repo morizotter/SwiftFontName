@@ -13,7 +13,7 @@
 		908CE02A1B5A39920009CA5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908CE0281B5A39920009CA5D /* Main.storyboard */; };
 		908CE02C1B5A39920009CA5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 908CE02B1B5A39920009CA5D /* Images.xcassets */; };
 		908CE02F1B5A39920009CA5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 908CE02D1B5A39920009CA5D /* LaunchScreen.xib */; };
-		908CE03B1B5A39920009CA5D /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE03A1B5A39920009CA5D /* ExampleTests.swift */; };
+		908CE03B1B5A39920009CA5D /* FontsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE03A1B5A39920009CA5D /* FontsTests.swift */; };
 		908CE0461B5A3A420009CA5D /* SystemFontsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0451B5A3A420009CA5D /* SystemFontsViewModel.swift */; };
 		908CE0481B5A46060009CA5D /* Family.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0471B5A46060009CA5D /* Family.swift */; };
 		908CE04A1B5A46100009CA5D /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0491B5A46100009CA5D /* Font.swift */; };
@@ -46,7 +46,7 @@
 		908CE02E1B5A39920009CA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		908CE0341B5A39920009CA5D /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		908CE0391B5A39920009CA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		908CE03A1B5A39920009CA5D /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
+		908CE03A1B5A39920009CA5D /* FontsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsTests.swift; sourceTree = "<group>"; };
 		908CE0451B5A3A420009CA5D /* SystemFontsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemFontsViewModel.swift; sourceTree = "<group>"; };
 		908CE0471B5A46060009CA5D /* Family.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Family.swift; sourceTree = "<group>"; };
 		908CE0491B5A46100009CA5D /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 		908CE0371B5A39920009CA5D /* ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				908CE03A1B5A39920009CA5D /* ExampleTests.swift */,
+				908CE03A1B5A39920009CA5D /* FontsTests.swift */,
 				908CE0381B5A39920009CA5D /* Supporting Files */,
 			);
 			path = ExampleTests;
@@ -388,7 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				908CE03B1B5A39920009CA5D /* ExampleTests.swift in Sources */,
+				908CE03B1B5A39920009CA5D /* FontsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

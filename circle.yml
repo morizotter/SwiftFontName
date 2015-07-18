@@ -1,0 +1,19 @@
+general:
+  build_dir: Example
+
+machine:
+  timezone:
+    Asia/Tokyo
+  environment:
+    XCODE_SCHEME: Example
+  xcode:
+    version: "6.4"
+dependencies:
+  override:
+    - pod install:
+        timeout: 300
+test:
+  override:
+    - xctool -workspace Example.xcworkspace -scheme Example-en -sdk iphonesimulator test
+    - xctool -workspace Example.xcworkspace -scheme Example-ja -sdk iphonesimulator test
+    - xctool -workspace Example.xcworkspace -scheme Example-fr -sdk iphonesimulator test

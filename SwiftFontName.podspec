@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
                        OS Font selection from neat Swift.
                        DESC
   s.homepage         = "https://github.com/morizotter/SwiftFontName"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.screenshots     = "https://raw.githubusercontent.com/morizotter/SwiftFontName/master/misc/helvetica.png"
   s.license          = 'MIT'
   s.author           = { "Naoki Morita" => "namorit@gmail.com" }
   s.source           = { :git => "https://github.com/morizotter/SwiftFontName.git", :tag => s.version.to_s }
@@ -25,11 +25,4 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'SwiftFontName/**/*'
-  # s.resource_bundles = {
-  #   'SwiftFontFamily' => ['Pod/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-end
+  end

@@ -5,13 +5,9 @@ machine:
   timezone:
     Asia/Tokyo
   environment:
-    XCODE_SCHEME: Example
+    XCODE_SCHEME: ExampleTests
   xcode:
     version: "6.4"
-dependencies:
-  override:
-    - pod install:
-        timeout: 300
 test:
   override:
     - xctool -workspace Example.xcworkspace -scheme Example-en -sdk iphonesimulator test

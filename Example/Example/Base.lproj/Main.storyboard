@@ -39,7 +39,7 @@
             </objects>
             <point key="canvasLocation" x="-844" y="135"/>
         </scene>
-        <!--SwiftFontFamily-->
+        <!--FontNames-->
         <scene sceneID="vSE-Gi-LsI">
             <objects>
                 <tableViewController id="HKi-9a-wUj" customClass="SwiftFontNameViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
@@ -60,11 +60,71 @@
                             <outlet property="delegate" destination="HKi-9a-wUj" id="RqH-R9-QMY"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="SwiftFontFamily" id="8D5-5b-x9z"/>
+                    <navigationItem key="navigationItem" title="FontNames" id="8D5-5b-x9z"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4bZ-ab-YWV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-844" y="836"/>
+        </scene>
+        <!--LocalizedFontName-->
+        <scene sceneID="VyY-cp-NCw">
+            <objects>
+                <viewController id="BJa-jC-RyL" customClass="LocalizedViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KbJ-x3-nyC"/>
+                        <viewControllerLayoutGuide type="bottom" id="DJR-CY-unU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6gQ-OK-3ff">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pHa-h5-Hxz">
+                                <rect key="frame" x="279" y="290" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="en: HelveticaNeue-Light, ja: HiraKakuProNW6, others: Cooperplate" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nbt-m1-934">
+                                <rect key="frame" x="30" y="330" width="540" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Nbt-m1-934" firstAttribute="top" secondItem="pHa-h5-Hxz" secondAttribute="bottom" constant="20" id="6qz-Ud-ph6"/>
+                            <constraint firstItem="Nbt-m1-934" firstAttribute="leading" secondItem="6gQ-OK-3ff" secondAttribute="leading" constant="30" id="FFU-4o-efh"/>
+                            <constraint firstAttribute="centerX" secondItem="pHa-h5-Hxz" secondAttribute="centerX" id="I85-pc-Qfy"/>
+                            <constraint firstAttribute="trailing" secondItem="Nbt-m1-934" secondAttribute="trailing" constant="30" id="SQ6-7S-0Vi"/>
+                            <constraint firstAttribute="centerY" secondItem="pHa-h5-Hxz" secondAttribute="centerY" id="UkN-aS-hmP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="LocalizedFontName" id="DIp-DF-jeb"/>
+                    <connections>
+                        <outlet property="localizedLabel" destination="pHa-h5-Hxz" id="w9z-hy-nbp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="waT-xN-nS8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-848" y="1532"/>
+        </scene>
+        <!--Localized-->
+        <scene sceneID="ZF1-cM-3kt">
+            <objects>
+                <navigationController id="5hT-P2-p7k" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Localized" id="CKK-Gw-jfF"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lva-ki-Wz7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BJa-jC-RyL" kind="relationship" relationship="rootViewController" id="bjh-6d-8ab"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7mu-no-SDA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1557" y="1538"/>
         </scene>
         <!--SwiftFontFamily-->
         <scene sceneID="zlA-J9-Ycb">
@@ -96,11 +156,12 @@
                     <connections>
                         <segue destination="5gV-lm-Ec3" kind="relationship" relationship="viewControllers" id="qet-Gh-JUI"/>
                         <segue destination="m7n-WK-i2Z" kind="relationship" relationship="viewControllers" id="LOQ-qe-3h1"/>
+                        <segue destination="5hT-P2-p7k" kind="relationship" relationship="viewControllers" id="GQd-9b-vBp"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aQz-E0-rlN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2277" y="464"/>
+            <point key="canvasLocation" x="-2337" y="1044"/>
         </scene>
         <!--SystemFonts-->
         <scene sceneID="Rjy-PJ-M9e">

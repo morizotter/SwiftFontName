@@ -19,6 +19,8 @@
 		908CE04A1B5A46100009CA5D /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0491B5A46100009CA5D /* Font.swift */; };
 		908CE04F1B5A46E70009CA5D /* SwiftFontNameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE04E1B5A46E70009CA5D /* SwiftFontNameViewModel.swift */; };
 		908CE0511B5A47020009CA5D /* SwiftFontNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0501B5A47020009CA5D /* SwiftFontNameViewController.swift */; };
+		908CE0591B5AAF770009CA5D /* LocalizedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0581B5AAF770009CA5D /* LocalizedViewController.swift */; };
+		908CE05B1B5AAF9A0009CA5D /* LocalizedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE05A1B5AAF9A0009CA5D /* LocalizedViewModel.swift */; };
 		B9105F3DD4D90AC48AAAE569 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E38207D0687F517F1916E75 /* Pods_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,10 @@
 		908CE0491B5A46100009CA5D /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		908CE04E1B5A46E70009CA5D /* SwiftFontNameViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFontNameViewModel.swift; sourceTree = "<group>"; };
 		908CE0501B5A47020009CA5D /* SwiftFontNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFontNameViewController.swift; sourceTree = "<group>"; };
+		908CE0571B5AA6EF0009CA5D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		908CE0581B5AAF770009CA5D /* LocalizedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedViewController.swift; sourceTree = "<group>"; };
+		908CE05A1B5AAF9A0009CA5D /* LocalizedViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedViewModel.swift; sourceTree = "<group>"; };
+		908CE05C1B5AB2000009CA5D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		936F1EAE2802544A8F50B78B /* Pods_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38DB3C0699CA9D47F1941D1 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,6 +166,8 @@
 				908CE0261B5A39920009CA5D /* SystemFontsViewController.swift */,
 				908CE04E1B5A46E70009CA5D /* SwiftFontNameViewModel.swift */,
 				908CE0501B5A47020009CA5D /* SwiftFontNameViewController.swift */,
+				908CE0581B5AAF770009CA5D /* LocalizedViewController.swift */,
+				908CE05A1B5AAF9A0009CA5D /* LocalizedViewModel.swift */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -380,6 +388,8 @@
 				908CE0251B5A39920009CA5D /* AppDelegate.swift in Sources */,
 				908CE0461B5A3A420009CA5D /* SystemFontsViewModel.swift in Sources */,
 				908CE0511B5A47020009CA5D /* SwiftFontNameViewController.swift in Sources */,
+				908CE0591B5AAF770009CA5D /* LocalizedViewController.swift in Sources */,
+				908CE05B1B5AAF9A0009CA5D /* LocalizedViewModel.swift in Sources */,
 				908CE04F1B5A46E70009CA5D /* SwiftFontNameViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +425,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				908CE02E1B5A39920009CA5D /* Base */,
+				908CE0571B5AA6EF0009CA5D /* ja */,
+				908CE05C1B5AB2000009CA5D /* fr */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";

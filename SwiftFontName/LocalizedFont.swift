@@ -8,17 +8,10 @@
 
 import UIKit
 
-public func LocalizedFont(closure: () -> [String: String]) -> String {
-    let localizedFonts = closure()
+public func LocalizedFontName(defaultFontName: String, localizedFontNames: [String: String]) -> String {
     let preferredLanguage = NSLocale.preferredLanguages().first as! String
-    if localizedFonts.indexForKey(preferredLanguage) != nil {
-        return localizedFonts[preferredLanguage]!
+    if localizedFontNames.indexForKey(preferredLanguage) != nil {
+        return localizedFontNames[preferredLanguage]!
     }
-    
-    if count(localizedFonts) > 0 {
-        return localizedFonts[localizedFonts.keys.first!]!
-    }
-    
-    return UIFont.systemFontOfSize(17.0).fontName
+    return defaultFontName
 }
-

@@ -19,13 +19,5 @@ class SwiftFontNameViewModel {
             fonts.append(Font(name: fontName))
         }
         self.families = [Family(name: "Families", fonts: fonts)]
-        
-        let fontName = LocalizedFont { _ -> [String : String] in
-            return [
-                "en": FontName.HelveticaNeueLight,
-                "ja": FontName.HiraKakuProNW6
-            ]
-        }
-        println("fontName: \(fontName)")
     }
 }

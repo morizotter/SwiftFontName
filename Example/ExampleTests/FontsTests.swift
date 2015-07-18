@@ -28,4 +28,16 @@ class FontsTests: XCTestCase {
             }
         }
     }
+    
+    func testLocalizations() {
+        let preferredLanguage = NSLocale.preferredLanguages().first! as! String
+        let fontName = LocalizedFontName(FontName.Copperplate, ["ja": FontName.HiraKakuProNW6, "en": FontName.HelveticaNeueLight])
+        if preferredLanguage == "ja" {
+            XCTAssertEqual(fontName, FontName.HiraKakuProNW6, "Localization failed: \(preferredLanguage)")
+        } else if preferredLanguage == "en" {
+            XCTAssertEqual(fontName, FontName.HelveticaNeueLight, "Localization failed: \(preferredLanguage)")
+        } else {
+            XCTAssertEqual(fontName, FontName.Copperplate, "Localization failed: \(preferredLanguage)")
+        }
+    }
 }

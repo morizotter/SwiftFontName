@@ -17,7 +17,7 @@ class SystemFontsViewModel {
         for familyName in UIFont.familyNames() as! [String] {
             var fonts = [Font]()
             for fontName in UIFont.fontNamesForFamilyName(familyName) as! [String] {
-                fonts.append(Font(name: fontName, font: UIFont(name: fontName, size: 17.0)))
+                fonts.append(Font(name: fontName))
             }
             families.append(Family(name: familyName, fonts: fonts))
         }

@@ -14,14 +14,10 @@ class SwiftFontFamilyViewModel {
     let families: [Family]
     
     init() {
-        var families = [Family]()
-        for familyName in FontFamily.familyNames {
-            var fonts = [Font]()
-            for fontName in FontFamily.fontNamesForFamilyName(familyName) {
-                fonts.append(Font(name: fontName, font: UIFont(name: fontName, size: 17.0)))
-            }
-            families.append(Family(name: familyName, fonts: fonts))
+        var fonts = [Font]()
+        for fontName in FontName.fontNames() {
+            fonts.append(Font(name: fontName))
         }
-        self.families = families
+        self.families = [Family(name: "Families", fonts: fonts)]
     }
 }

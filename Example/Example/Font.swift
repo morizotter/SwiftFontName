@@ -10,12 +10,11 @@ import UIKit
 
 struct Font {
     var name: String
-    var font: UIFont?
     var size: CGFloat = 17.0
+    var font: UIFont? { return UIFont(name: name, size: size) }
     
-    init(name: String, font: UIFont?, size: CGFloat = 17.0) {
+    init(name: String, size: CGFloat = 17.0) {
         self.name = name
-        self.font = font
         self.size = size
     }
 }

@@ -1,6 +1,8 @@
 # SwiftFontName
 
-You don't need to search font name any more with SwiftFontName. When using UIFont, you sometimes search font name string because UIFont needs string font name value. Font family name and font name don't have organized naming rule, so it's painful to search correct string. With SwiftFontName, font name candidates shows up when you put first word of font family name.
+You don't need to search font name any more with SwiftFontName. SwiftFontName is font name complements and supporting localized font library.
+
+When using UIFont, you sometimes search font name string because UIFont needs string font name value. Font family name and font name don't have organized naming rule, so it's painful to search correct string. With SwiftFontName, font name candidates shows up when you put first word of font family name.
 
 [![CI Status](http://img.shields.io/travis/Naoki Morita/SwiftFontName.svg?style=flat)](https://travis-ci.org/Naoki Morita/SwiftFontName)
 [![Version](https://img.shields.io/cocoapods/v/SwiftFontName.svg?style=flat)](http://cocoapods.org/pods/SwiftFontName)

@@ -10,9 +10,9 @@
 Pod::Spec.new do |s|
   s.name             = "SwiftFontName"
   s.version          = "1.0.0"
-  s.summary          = "Pure swift OS font selectoin library."
+  s.summary          = "You don't need to search font name any more with SwiftFontName. SwiftFontName is font name complements and supporting localized font library"
   s.description      = <<-DESC
-                       OS Font selection from neat Swift.
+                       You don't need to search font name any more with SwiftFontName. When using UIFont, you sometimes search font name string because UIFont needs string font name value. Font family name and font name don't have organized naming rule, so it's painful to search correct string. With SwiftFontName, font name candidates shows up when you put first word of font family name.
                        DESC
   s.homepage         = "https://github.com/morizotter/SwiftFontName"
   s.screenshots     = "https://raw.githubusercontent.com/morizotter/SwiftFontName/master/misc/helvetica.png"

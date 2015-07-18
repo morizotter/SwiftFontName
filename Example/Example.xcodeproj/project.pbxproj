@@ -18,6 +18,7 @@
 		908CE04A1B5A46100009CA5D /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0491B5A46100009CA5D /* Font.swift */; };
 		908CE04F1B5A46E70009CA5D /* SwiftFontFamilyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE04E1B5A46E70009CA5D /* SwiftFontFamilyViewModel.swift */; };
 		908CE0511B5A47020009CA5D /* SwiftFontFamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0501B5A47020009CA5D /* SwiftFontFamilyViewController.swift */; };
+		908CE0531B5A49D40009CA5D /* FontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0521B5A49D40009CA5D /* FontFamily.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		908CE0491B5A46100009CA5D /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		908CE04E1B5A46E70009CA5D /* SwiftFontFamilyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFontFamilyViewModel.swift; sourceTree = "<group>"; };
 		908CE0501B5A47020009CA5D /* SwiftFontFamilyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFontFamilyViewController.swift; sourceTree = "<group>"; };
+		908CE0521B5A49D40009CA5D /* FontFamily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontFamily.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		908CE0441B5A39B70009CA5D /* SwiftFontFamily */ = {
 			isa = PBXGroup;
 			children = (
+				908CE0521B5A49D40009CA5D /* FontFamily.swift */,
 			);
 			name = SwiftFontFamily;
 			path = ../SwiftFontFamily;
@@ -256,6 +259,7 @@
 				908CE0481B5A46060009CA5D /* Family.swift in Sources */,
 				908CE04A1B5A46100009CA5D /* Font.swift in Sources */,
 				908CE0251B5A39920009CA5D /* AppDelegate.swift in Sources */,
+				908CE0531B5A49D40009CA5D /* FontFamily.swift in Sources */,
 				908CE0461B5A3A420009CA5D /* SystemFontsViewModel.swift in Sources */,
 				908CE0511B5A47020009CA5D /* SwiftFontFamilyViewController.swift in Sources */,
 				908CE04F1B5A46E70009CA5D /* SwiftFontFamilyViewModel.swift in Sources */,

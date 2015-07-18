@@ -10,14 +10,11 @@
 Pod::Spec.new do |s|
   s.name             = "SwiftFontFamily"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SwiftFontFamily."
+  s.summary          = "Pure swift OS font selectoin library."
   s.description      = <<-DESC
-                       An optional longer description of SwiftFontFamily
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       OS Font selection from neat Swift enum.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SwiftFontFamily"
+  s.homepage         = "https://github.com/morizotter"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Naoki Morita" => "namorit@gmail.com" }

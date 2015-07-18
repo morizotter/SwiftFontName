@@ -70,6 +70,14 @@ github "morizotter/SwiftFontName" ~> 1.0
 
 To copy `FontName.swift` and `LocalizedFont.swift` in SwiftFontName directory, you can use this library, too.
 
+## Contribution
+
+1. Fork
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -am 'Add some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create new Pull Request
+
 ## Author
 
 Naoki Morita, namorit@gmail.com

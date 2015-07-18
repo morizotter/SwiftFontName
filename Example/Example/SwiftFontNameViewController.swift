@@ -1,5 +1,5 @@
 //
-//  SwiftFontFamilyViewController.swift
+//  SwiftFontNameViewController.swift
 //  Example
 //
 //  Created by MORITANAOKI on 2015/07/18.
@@ -8,16 +8,16 @@
 
 import UIKit
 
-class SwiftFontFamilyViewController: UITableViewController {
+class SwiftFontNameViewController: UITableViewController {
     
-    let viewModel = SwiftFontFamilyViewModel()
+    let viewModel = SwiftFontNameViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 }
 
-extension SwiftFontFamilyViewController {
+extension SwiftFontNameViewController {
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return count(viewModel.families)
     }

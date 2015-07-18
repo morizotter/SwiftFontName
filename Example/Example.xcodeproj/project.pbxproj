@@ -17,8 +17,8 @@
 		908CE0461B5A3A420009CA5D /* SystemFontsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0451B5A3A420009CA5D /* SystemFontsViewModel.swift */; };
 		908CE0481B5A46060009CA5D /* Family.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0471B5A46060009CA5D /* Family.swift */; };
 		908CE04A1B5A46100009CA5D /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0491B5A46100009CA5D /* Font.swift */; };
-		908CE04F1B5A46E70009CA5D /* SwiftFontFamilyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE04E1B5A46E70009CA5D /* SwiftFontFamilyViewModel.swift */; };
-		908CE0511B5A47020009CA5D /* SwiftFontFamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0501B5A47020009CA5D /* SwiftFontFamilyViewController.swift */; };
+		908CE04F1B5A46E70009CA5D /* SwiftFontNameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE04E1B5A46E70009CA5D /* SwiftFontNameViewModel.swift */; };
+		908CE0511B5A47020009CA5D /* SwiftFontNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0501B5A47020009CA5D /* SwiftFontNameViewController.swift */; };
 		B9105F3DD4D90AC48AAAE569 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E38207D0687F517F1916E75 /* Pods_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -50,8 +50,8 @@
 		908CE0451B5A3A420009CA5D /* SystemFontsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemFontsViewModel.swift; sourceTree = "<group>"; };
 		908CE0471B5A46060009CA5D /* Family.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Family.swift; sourceTree = "<group>"; };
 		908CE0491B5A46100009CA5D /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
-		908CE04E1B5A46E70009CA5D /* SwiftFontFamilyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFontFamilyViewModel.swift; sourceTree = "<group>"; };
-		908CE0501B5A47020009CA5D /* SwiftFontFamilyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFontFamilyViewController.swift; sourceTree = "<group>"; };
+		908CE04E1B5A46E70009CA5D /* SwiftFontNameViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFontNameViewModel.swift; sourceTree = "<group>"; };
+		908CE0501B5A47020009CA5D /* SwiftFontNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFontNameViewController.swift; sourceTree = "<group>"; };
 		936F1EAE2802544A8F50B78B /* Pods_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38DB3C0699CA9D47F1941D1 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,8 +158,8 @@
 			children = (
 				908CE0451B5A3A420009CA5D /* SystemFontsViewModel.swift */,
 				908CE0261B5A39920009CA5D /* SystemFontsViewController.swift */,
-				908CE04E1B5A46E70009CA5D /* SwiftFontFamilyViewModel.swift */,
-				908CE0501B5A47020009CA5D /* SwiftFontFamilyViewController.swift */,
+				908CE04E1B5A46E70009CA5D /* SwiftFontNameViewModel.swift */,
+				908CE0501B5A47020009CA5D /* SwiftFontNameViewController.swift */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -379,8 +379,8 @@
 				908CE04A1B5A46100009CA5D /* Font.swift in Sources */,
 				908CE0251B5A39920009CA5D /* AppDelegate.swift in Sources */,
 				908CE0461B5A3A420009CA5D /* SystemFontsViewModel.swift in Sources */,
-				908CE0511B5A47020009CA5D /* SwiftFontFamilyViewController.swift in Sources */,
-				908CE04F1B5A46E70009CA5D /* SwiftFontFamilyViewModel.swift in Sources */,
+				908CE0511B5A47020009CA5D /* SwiftFontNameViewController.swift in Sources */,
+				908CE04F1B5A46E70009CA5D /* SwiftFontNameViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

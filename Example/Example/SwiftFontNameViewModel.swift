@@ -1,5 +1,5 @@
 //
-//  SwiftFontFamilyViewModel.swift
+//  SwiftFontNameViewModel.swift
 //  Example
 //
 //  Created by MORITANAOKI on 2015/07/18.
@@ -9,7 +9,7 @@
 import UIKit
 import SwiftFontFamily
 
-class SwiftFontFamilyViewModel {
+class SwiftFontNameViewModel {
     
     let families: [Family]
     

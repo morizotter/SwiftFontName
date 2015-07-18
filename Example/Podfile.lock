@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ".."
 
 SPEC CHECKSUMS:
-  SwiftFontFamily: 5921d00271a4f7c3baf40830a2da481714051d65
+  SwiftFontFamily: b0b84eb923cd96c8046b8d9635ced1ef550d631f
 
 COCOAPODS: 0.37.2

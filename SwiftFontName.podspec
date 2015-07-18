@@ -8,23 +8,23 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "SwiftFontFamily"
+  s.name             = "SwiftFontName"
   s.version          = "0.1.0"
   s.summary          = "Pure swift OS font selectoin library."
   s.description      = <<-DESC
-                       OS Font selection from neat Swift enum.
+                       OS Font selection from neat Swift.
                        DESC
-  s.homepage         = "https://github.com/morizotter/SwiftFontFamily"
+  s.homepage         = "https://github.com/morizotter/SwiftFontName"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Naoki Morita" => "namorit@gmail.com" }
-  s.source           = { :git => "https://github.com/morizotter/SwiftFontFamily.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/morizotter/SwiftFontName.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/morizotter'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'SwiftFontFamily/**/*'
+  s.source_files = 'SwiftFontName/**/*'
   # s.resource_bundles = {
   #   'SwiftFontFamily' => ['Pod/Assets/*.png']
   # }

@@ -7,334 +7,321 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		180F9822E4397A1887B762ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFF9E67533397A295745E58 /* Foundation.framework */; };
-		1F73437761558A76A16B3694 /* Pods-ExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B32E0D07B8FA7A6807592A6 /* Pods-ExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		438D7A5B359168C240CA088A /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C57B6F9195901E19ABAAF59 /* Pods-Example-dummy.m */; };
-		5AB3F9CFE590D2A0AAFDF243 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2210631D9F2B7DC470EF15A /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68F41B09132C28A940C754E5 /* Pods-ExampleTests-SwiftFontName-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A450A80AA8537D7B35FB3810 /* Pods-ExampleTests-SwiftFontName-dummy.m */; };
-		85FAF38E070F29F5A699F01E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFF9E67533397A295745E58 /* Foundation.framework */; };
-		96981DB22D31E2B82482E011 /* Pods-Example-SwiftFontName-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3582C9B99C4195D474754AD2 /* Pods-Example-SwiftFontName-dummy.m */; };
-		9C96496815472FCCACEFFF4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFF9E67533397A295745E58 /* Foundation.framework */; };
-		A24354F45E8E99083A20F4BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFF9E67533397A295745E58 /* Foundation.framework */; };
-		B77EA54AE75176BD8B133A3B /* Pods-Example-SwiftFontName-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2926793CD2EAD0AE5C805C /* Pods-Example-SwiftFontName-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B961373B4BCE8D4B47898D39 /* Pods-ExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB59F8794C843F0A40E7286B /* Pods-ExampleTests-dummy.m */; };
-		C8405830DFF667FD6CA0DF5F /* Pods-ExampleTests-SwiftFontName-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96513C8CDC099AD3A5744D90 /* Pods-ExampleTests-SwiftFontName-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D93D6963464F99C706F4CF0E /* FontName.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8962A934DD679D7A66A940 /* FontName.swift */; };
-		DD1BC350F73A74C20301C9A2 /* FontName.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8962A934DD679D7A66A940 /* FontName.swift */; };
+		051354626E4F741F0CD27DD5 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABA821E536082A0370E4D61 /* Pods-Example-dummy.m */; };
+		1405DF7D07874CFE50CFC02E /* FontName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E546225B02516AB8D9D24A2D /* FontName.swift */; };
+		2B7E85E76B89422D26EE0528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C451C6A0412F19C1DA8F5B /* Foundation.framework */; };
+		2B7F9CE33EC081D8C12022B0 /* Pods-Example-SwiftFontName-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C2C8EB4A2511EB3ED4B931 /* Pods-Example-SwiftFontName-dummy.m */; };
+		39F7D89712FBD18AE646C969 /* Pods-ExampleTests-SwiftFontName-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D62565CE7C10E547A04288 /* Pods-ExampleTests-SwiftFontName-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5286F9E710227E5885A81F40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C451C6A0412F19C1DA8F5B /* Foundation.framework */; };
+		541853AF69E0849D2907D9AC /* FontName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E546225B02516AB8D9D24A2D /* FontName.swift */; };
+		6075B6613B26FC60C69B1835 /* Pods-ExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBD1F09356091031C6DA21C /* Pods-ExampleTests-dummy.m */; };
+		611CB5B93D2D86C03158BA96 /* LocalizedFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA64F5A69AF1833F99538B8 /* LocalizedFont.swift */; };
+		7784FE1BFDF649A3D067EFFA /* Pods-ExampleTests-SwiftFontName-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F38E409612A8F91F89620C0 /* Pods-ExampleTests-SwiftFontName-dummy.m */; };
+		78EBD4EB53370B651954E0A9 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97BBB29E84478CAF757DF5AE /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8065D32024233FECBAE7E544 /* Pods-Example-SwiftFontName-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB7C72F547C0DBED1F21BBB /* Pods-Example-SwiftFontName-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D41FBDBE01052430E27C8B9 /* Pods-ExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F70FC22923EF16DE6DBD150 /* Pods-ExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A73BFD2A772E5072606748DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C451C6A0412F19C1DA8F5B /* Foundation.framework */; };
+		C8215377434D4DB2CB429AA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C451C6A0412F19C1DA8F5B /* Foundation.framework */; };
+		E759A621DD2A8C84E5AFB06C /* LocalizedFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA64F5A69AF1833F99538B8 /* LocalizedFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		653EF26DE42DB2851F6F87DC /* PBXContainerItemProxy */ = {
+		78A75BBA80FEFD747AA0638D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 09F7CB619AE528585C3A8D6B /* Project object */;
+			containerPortal = F52112DF08EE4B7F9F887F47 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5E54FC244CAA609F7282C503;
-			remoteInfo = "Pods-Example-SwiftFontName";
-		};
-		E5D6BA58708C06A998A9378B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 09F7CB619AE528585C3A8D6B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 421F1091537623BC9B25536E;
+			remoteGlobalIDString = A0C88CF452E26A9A392E8A4F;
 			remoteInfo = "Pods-ExampleTests-SwiftFontName";
+		};
+		939C3ED15F330CFCF1D47973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F52112DF08EE4B7F9F887F47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62163EDDD1043A0A652D5F34;
+			remoteInfo = "Pods-Example-SwiftFontName";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19F9A54CD11DC6FC5E00A923 /* Pods-ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		33606C5E7C95481DFA0A1C7D /* Pods-Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-environment.h"; sourceTree = "<group>"; };
-		33B181ED5E2B0A50153BF567 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		3582C9B99C4195D474754AD2 /* Pods-Example-SwiftFontName-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-SwiftFontName-dummy.m"; sourceTree = "<group>"; };
-		3FD686BCD3104EBA20D1DFCC /* Pods-ExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ExampleTests.modulemap"; sourceTree = "<group>"; };
-		43244BB914C03A5D7B4EFB20 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		450563077F0779ED72A9C782 /* Pods-Example-SwiftFontName.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-SwiftFontName.xcconfig"; sourceTree = "<group>"; };
-		4951A6AAE4BEE057F88935F8 /* Pods-ExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleTests-frameworks.sh"; sourceTree = "<group>"; };
-		4AFE350C9043032A1312E1D9 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		56B563C2824F7E0902E0B120 /* Pods-Example-SwiftFontName-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-SwiftFontName-prefix.pch"; sourceTree = "<group>"; };
-		5DFF9E67533397A295745E58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		63FECAF3C69511D2615CC5D3 /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
-		6FDE0E04FD2585290404698B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-ExampleTests-SwiftFontName/Info.plist"; sourceTree = "<group>"; };
-		7576DD95FEDBB51A2C8B0263 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7CD5E208D1A0E99B5A91BADB /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		84A7E074FC1B5E274FE923A0 /* Pods-ExampleTests-SwiftFontName.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTests-SwiftFontName.xcconfig"; path = "../Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName.xcconfig"; sourceTree = "<group>"; };
-		8B32E0D07B8FA7A6807592A6 /* Pods-ExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleTests-umbrella.h"; sourceTree = "<group>"; };
-		8C57B6F9195901E19ABAAF59 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		92422208BD5553B70D020C0A /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		96513C8CDC099AD3A5744D90 /* Pods-ExampleTests-SwiftFontName-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ExampleTests-SwiftFontName-umbrella.h"; path = "../Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName-umbrella.h"; sourceTree = "<group>"; };
-		986DAA8FF93A046D6562D458 /* Pods-ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9BF89D412B1F6BAC4B4F4D9A /* Pods-Example-SwiftFontName.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Example-SwiftFontName.modulemap"; sourceTree = "<group>"; };
-		A2210631D9F2B7DC470EF15A /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		A37F39561B98D43792BB2960 /* Pods-ExampleTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleTests-environment.h"; sourceTree = "<group>"; };
-		A450A80AA8537D7B35FB3810 /* Pods-ExampleTests-SwiftFontName-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-ExampleTests-SwiftFontName-dummy.m"; path = "../Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName-dummy.m"; sourceTree = "<group>"; };
-		A494860DB401A6139F079B8F /* Pods-ExampleTests-SwiftFontName-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ExampleTests-SwiftFontName-prefix.pch"; path = "../Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName-prefix.pch"; sourceTree = "<group>"; };
-		AD2926793CD2EAD0AE5C805C /* Pods-Example-SwiftFontName-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-SwiftFontName-umbrella.h"; sourceTree = "<group>"; };
-		BC0BA8EFC6B9308940BFE142 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		BCD17F672208E1500DAD2EFF /* Pods-ExampleTests-SwiftFontName-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTests-SwiftFontName-Private.xcconfig"; path = "../Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName-Private.xcconfig"; sourceTree = "<group>"; };
-		BD480F3434374B6E0EA80F71 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C0C186D5941094F7262FFB08 /* Pods-ExampleTests-SwiftFontName.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-ExampleTests-SwiftFontName.modulemap"; path = "../Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName.modulemap"; sourceTree = "<group>"; };
-		CA63D654CD5FF27C26F72EF6 /* Pods-ExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleTests-resources.sh"; sourceTree = "<group>"; };
-		CB59F8794C843F0A40E7286B /* Pods-ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleTests-dummy.m"; sourceTree = "<group>"; };
-		CBA80AA845D1D2105B1469F2 /* Pods_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC563034753FBF660B2D3466 /* Pods-Example-SwiftFontName-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-SwiftFontName-Private.xcconfig"; sourceTree = "<group>"; };
-		D39F12A78A1F7AAC64CF439F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5BD33497332CFDFDE50FA0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDB7DD4DBA247EBA279779FC /* SwiftFontName.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftFontName.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBC573070CBB3759A1FC4DE6 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBFF442FB392B7212E45AB39 /* Pods-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EE8962A934DD679D7A66A940 /* FontName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FontName.swift; sourceTree = "<group>"; };
-		F96B780688FB5814E99ED2D0 /* SwiftFontName.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftFontName.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFEB01BF7D01DD36760BAFF4 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		02C1A687D98AE62553D0E766 /* Pods-ExampleTests-SwiftFontName.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTests-SwiftFontName.xcconfig"; path = "../Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName.xcconfig"; sourceTree = "<group>"; };
+		147408391F1F998BF4DFF0A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-ExampleTests-SwiftFontName/Info.plist"; sourceTree = "<group>"; };
+		188BEF1414ACEE53CA7D18B7 /* Pods-ExampleTests-SwiftFontName-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ExampleTests-SwiftFontName-prefix.pch"; path = "../Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName-prefix.pch"; sourceTree = "<group>"; };
+		1ABA821E536082A0370E4D61 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		2653E339120F2143EE7F7EAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A0F0EF0A72B917FB645B24A /* Pods-Example-SwiftFontName-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-SwiftFontName-Private.xcconfig"; sourceTree = "<group>"; };
+		4E8F5003D476F22398DE9ABC /* SwiftFontName.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftFontName.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EBD1F09356091031C6DA21C /* Pods-ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleTests-dummy.m"; sourceTree = "<group>"; };
+		55499291C638E377EDBDA4CA /* Pods-ExampleTests-SwiftFontName-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTests-SwiftFontName-Private.xcconfig"; path = "../Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName-Private.xcconfig"; sourceTree = "<group>"; };
+		628E805D5DD46FAC92B1F2F5 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		658937161FA7ED5C4729DB7B /* Pods-Example-SwiftFontName.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Example-SwiftFontName.modulemap"; sourceTree = "<group>"; };
+		67D62565CE7C10E547A04288 /* Pods-ExampleTests-SwiftFontName-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ExampleTests-SwiftFontName-umbrella.h"; path = "../Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName-umbrella.h"; sourceTree = "<group>"; };
+		7489B4DA680333CF02E289D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		749226F2EB455A644ABA3ACA /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB7C72F547C0DBED1F21BBB /* Pods-Example-SwiftFontName-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-SwiftFontName-umbrella.h"; sourceTree = "<group>"; };
+		7E50F867F6F7D44B5796D469 /* SwiftFontName.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftFontName.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA64F5A69AF1833F99538B8 /* LocalizedFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalizedFont.swift; sourceTree = "<group>"; };
+		7F70FC22923EF16DE6DBD150 /* Pods-ExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		83CB91532B1A71A2726CD67C /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		86A6A9E0D5A5821D1A7CF847 /* Pods-Example-SwiftFontName-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-SwiftFontName-prefix.pch"; sourceTree = "<group>"; };
+		8A515458D2AC5945648D0F23 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		97BBB29E84478CAF757DF5AE /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		996481E56DC1D603DD988E9E /* Pods-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AAE67905C4CCD94BEC4A953 /* Pods-ExampleTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleTests-environment.h"; sourceTree = "<group>"; };
+		9C848C3C4BA5655F7D5799F3 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		9F38E409612A8F91F89620C0 /* Pods-ExampleTests-SwiftFontName-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-ExampleTests-SwiftFontName-dummy.m"; path = "../Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName-dummy.m"; sourceTree = "<group>"; };
+		9F62DCE3DA01C3D7879B7A6D /* Pods-Example-SwiftFontName.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-SwiftFontName.xcconfig"; sourceTree = "<group>"; };
+		A022F6C4584530008B336A26 /* Pods_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC68C6C1DDEFB5BF151A40E3 /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		B0EA87095F5EF3E83C43E40B /* Pods-ExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ExampleTests.modulemap"; sourceTree = "<group>"; };
+		B5AD6CB6611455BB26C09AE8 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9B1C3D153CF41203EC9D275 /* Pods-ExampleTests-SwiftFontName.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-ExampleTests-SwiftFontName.modulemap"; path = "../Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName.modulemap"; sourceTree = "<group>"; };
+		B9C2C8EB4A2511EB3ED4B931 /* Pods-Example-SwiftFontName-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-SwiftFontName-dummy.m"; sourceTree = "<group>"; };
+		BB1CF952F2C434CD1B9AF60D /* Pods-ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0C451C6A0412F19C1DA8F5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C40B50D36B9F86C5A68CD77E /* Pods-ExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		C85F42EF347FECD4369AC735 /* Pods-Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-environment.h"; sourceTree = "<group>"; };
+		D3C6672448C2B00CDAB73550 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		DAEA8E6686F31AC46FF1F2EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E546225B02516AB8D9D24A2D /* FontName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FontName.swift; sourceTree = "<group>"; };
+		E5E01F2B9AF880C8D73AE6D3 /* Pods-ExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleTests-resources.sh"; sourceTree = "<group>"; };
+		EE59D41D5ABCBD26F75CD3E6 /* Pods-ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6015D43D7FBDF4EAEA17BC2 /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7D72E70F24556BEC102345A /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		067CF4D80469EEA6CF6F8ECC /* Frameworks */ = {
+		0224F60DCFABC0F4E818C752 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A24354F45E8E99083A20F4BF /* Foundation.framework in Frameworks */,
+				C8215377434D4DB2CB429AA1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F2DAA927E844A3F2204A376 /* Frameworks */ = {
+		52368D70D5A8B25A2FB64DA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180F9822E4397A1887B762ED /* Foundation.framework in Frameworks */,
+				A73BFD2A772E5072606748DE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9B115872ADBBEB2E26EC6E9 /* Frameworks */ = {
+		52C0BD5386CCA8E7249FA5E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C96496815472FCCACEFFF4D /* Foundation.framework in Frameworks */,
+				5286F9E710227E5885A81F40 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECE6262C1269D4BA669F94DA /* Frameworks */ = {
+		D9642BDA91EDACD72F0A7EEF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85FAF38E070F29F5A699F01E /* Foundation.framework in Frameworks */,
+				2B7E85E76B89422D26EE0528 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		048172260A0D86E7509FA031 /* SwiftFontName */ = {
+		0CDE01BCA4FDEFF6FD924892 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EE8962A934DD679D7A66A940 /* FontName.swift */,
-			);
-			path = SwiftFontName;
-			sourceTree = "<group>";
-		};
-		0821EE462FD0F58C3B1A1912 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EBC573070CBB3759A1FC4DE6 /* Pods_Example.framework */,
-				CBA80AA845D1D2105B1469F2 /* Pods_ExampleTests.framework */,
-				DDB7DD4DBA247EBA279779FC /* SwiftFontName.framework */,
-				F96B780688FB5814E99ED2D0 /* SwiftFontName.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4D6C7FED3657499A2E1149C2 = {
-			isa = PBXGroup;
-			children = (
-				FFEB01BF7D01DD36760BAFF4 /* Podfile */,
-				AFA6A0A3A267BC31BFBB047D /* Development Pods */,
-				6E51F14EA89715001A0A2D8E /* Frameworks */,
-				0821EE462FD0F58C3B1A1912 /* Products */,
-				8F9893314BBAD24235FD2F69 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		55C10F5AE68CBF8D3BD0F6FC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				43244BB914C03A5D7B4EFB20 /* Info.plist */,
-				6FDE0E04FD2585290404698B /* Info.plist */,
-				9BF89D412B1F6BAC4B4F4D9A /* Pods-Example-SwiftFontName.modulemap */,
-				450563077F0779ED72A9C782 /* Pods-Example-SwiftFontName.xcconfig */,
-				CC563034753FBF660B2D3466 /* Pods-Example-SwiftFontName-Private.xcconfig */,
-				3582C9B99C4195D474754AD2 /* Pods-Example-SwiftFontName-dummy.m */,
-				56B563C2824F7E0902E0B120 /* Pods-Example-SwiftFontName-prefix.pch */,
-				AD2926793CD2EAD0AE5C805C /* Pods-Example-SwiftFontName-umbrella.h */,
-				C0C186D5941094F7262FFB08 /* Pods-ExampleTests-SwiftFontName.modulemap */,
-				84A7E074FC1B5E274FE923A0 /* Pods-ExampleTests-SwiftFontName.xcconfig */,
-				BCD17F672208E1500DAD2EFF /* Pods-ExampleTests-SwiftFontName-Private.xcconfig */,
-				A450A80AA8537D7B35FB3810 /* Pods-ExampleTests-SwiftFontName-dummy.m */,
-				A494860DB401A6139F079B8F /* Pods-ExampleTests-SwiftFontName-prefix.pch */,
-				96513C8CDC099AD3A5744D90 /* Pods-ExampleTests-SwiftFontName-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-Example-SwiftFontName";
-			sourceTree = "<group>";
-		};
-		61F7589EF2C0BFE720AA0143 /* Pods-ExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				D5BD33497332CFDFDE50FA0F /* Info.plist */,
-				3FD686BCD3104EBA20D1DFCC /* Pods-ExampleTests.modulemap */,
-				19F9A54CD11DC6FC5E00A923 /* Pods-ExampleTests-acknowledgements.markdown */,
-				986DAA8FF93A046D6562D458 /* Pods-ExampleTests-acknowledgements.plist */,
-				CB59F8794C843F0A40E7286B /* Pods-ExampleTests-dummy.m */,
-				A37F39561B98D43792BB2960 /* Pods-ExampleTests-environment.h */,
-				4951A6AAE4BEE057F88935F8 /* Pods-ExampleTests-frameworks.sh */,
-				CA63D654CD5FF27C26F72EF6 /* Pods-ExampleTests-resources.sh */,
-				8B32E0D07B8FA7A6807592A6 /* Pods-ExampleTests-umbrella.h */,
-				EBFF442FB392B7212E45AB39 /* Pods-ExampleTests.debug.xcconfig */,
-				92422208BD5553B70D020C0A /* Pods-ExampleTests.release.xcconfig */,
-			);
-			name = "Pods-ExampleTests";
-			path = "Target Support Files/Pods-ExampleTests";
-			sourceTree = "<group>";
-		};
-		64D511768F64E1A643A58435 /* Pods-Example */ = {
-			isa = PBXGroup;
-			children = (
-				D39F12A78A1F7AAC64CF439F /* Info.plist */,
-				33B181ED5E2B0A50153BF567 /* Pods-Example.modulemap */,
-				BD480F3434374B6E0EA80F71 /* Pods-Example-acknowledgements.markdown */,
-				7576DD95FEDBB51A2C8B0263 /* Pods-Example-acknowledgements.plist */,
-				8C57B6F9195901E19ABAAF59 /* Pods-Example-dummy.m */,
-				33606C5E7C95481DFA0A1C7D /* Pods-Example-environment.h */,
-				BC0BA8EFC6B9308940BFE142 /* Pods-Example-frameworks.sh */,
-				63FECAF3C69511D2615CC5D3 /* Pods-Example-resources.sh */,
-				A2210631D9F2B7DC470EF15A /* Pods-Example-umbrella.h */,
-				4AFE350C9043032A1312E1D9 /* Pods-Example.debug.xcconfig */,
-				7CD5E208D1A0E99B5A91BADB /* Pods-Example.release.xcconfig */,
-			);
-			name = "Pods-Example";
-			path = "Target Support Files/Pods-Example";
-			sourceTree = "<group>";
-		};
-		6E51F14EA89715001A0A2D8E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				74DD8652F4860228E90E2C0A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		74DD8652F4860228E90E2C0A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5DFF9E67533397A295745E58 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		8F9893314BBAD24235FD2F69 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				64D511768F64E1A643A58435 /* Pods-Example */,
-				61F7589EF2C0BFE720AA0143 /* Pods-ExampleTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AFA6A0A3A267BC31BFBB047D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B206E46ACB32E56F5F1F5EF9 /* SwiftFontName */,
+				1D6C4AAFD83F83BF3B52CB9D /* SwiftFontName */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B206E46ACB32E56F5F1F5EF9 /* SwiftFontName */ = {
+		1D6C4AAFD83F83BF3B52CB9D /* SwiftFontName */ = {
 			isa = PBXGroup;
 			children = (
-				55C10F5AE68CBF8D3BD0F6FC /* Support Files */,
-				048172260A0D86E7509FA031 /* SwiftFontName */,
+				EF49C5F8418D8E5CF189B726 /* Support Files */,
+				538D04AF5869966A3BA7E1AA /* SwiftFontName */,
 			);
 			name = SwiftFontName;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		1E571E8FEDB0F77C4286B471 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C0C451C6A0412F19C1DA8F5B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		206FB2ADAE7621ED904043DF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				989D81D3227AD507FADF1C7D /* Pods-Example */,
+				D900E2540BC8BA6CEEBB9A65 /* Pods-ExampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4918E91887DE418116A94CAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E571E8FEDB0F77C4286B471 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		538D04AF5869966A3BA7E1AA /* SwiftFontName */ = {
+			isa = PBXGroup;
+			children = (
+				E546225B02516AB8D9D24A2D /* FontName.swift */,
+				7EA64F5A69AF1833F99538B8 /* LocalizedFont.swift */,
+			);
+			path = SwiftFontName;
+			sourceTree = "<group>";
+		};
+		675FDA076EE3882A8E64C580 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				749226F2EB455A644ABA3ACA /* Pods_Example.framework */,
+				A022F6C4584530008B336A26 /* Pods_ExampleTests.framework */,
+				4E8F5003D476F22398DE9ABC /* SwiftFontName.framework */,
+				7E50F867F6F7D44B5796D469 /* SwiftFontName.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		989D81D3227AD507FADF1C7D /* Pods-Example */ = {
+			isa = PBXGroup;
+			children = (
+				2653E339120F2143EE7F7EAA /* Info.plist */,
+				D3C6672448C2B00CDAB73550 /* Pods-Example.modulemap */,
+				B5AD6CB6611455BB26C09AE8 /* Pods-Example-acknowledgements.markdown */,
+				8A515458D2AC5945648D0F23 /* Pods-Example-acknowledgements.plist */,
+				1ABA821E536082A0370E4D61 /* Pods-Example-dummy.m */,
+				C85F42EF347FECD4369AC735 /* Pods-Example-environment.h */,
+				9C848C3C4BA5655F7D5799F3 /* Pods-Example-frameworks.sh */,
+				AC68C6C1DDEFB5BF151A40E3 /* Pods-Example-resources.sh */,
+				97BBB29E84478CAF757DF5AE /* Pods-Example-umbrella.h */,
+				F7D72E70F24556BEC102345A /* Pods-Example.debug.xcconfig */,
+				83CB91532B1A71A2726CD67C /* Pods-Example.release.xcconfig */,
+			);
+			name = "Pods-Example";
+			path = "Target Support Files/Pods-Example";
+			sourceTree = "<group>";
+		};
+		C37759910F6E0FF5E7BEC468 = {
+			isa = PBXGroup;
+			children = (
+				628E805D5DD46FAC92B1F2F5 /* Podfile */,
+				0CDE01BCA4FDEFF6FD924892 /* Development Pods */,
+				4918E91887DE418116A94CAD /* Frameworks */,
+				675FDA076EE3882A8E64C580 /* Products */,
+				206FB2ADAE7621ED904043DF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D900E2540BC8BA6CEEBB9A65 /* Pods-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAEA8E6686F31AC46FF1F2EE /* Info.plist */,
+				B0EA87095F5EF3E83C43E40B /* Pods-ExampleTests.modulemap */,
+				EE59D41D5ABCBD26F75CD3E6 /* Pods-ExampleTests-acknowledgements.markdown */,
+				BB1CF952F2C434CD1B9AF60D /* Pods-ExampleTests-acknowledgements.plist */,
+				4EBD1F09356091031C6DA21C /* Pods-ExampleTests-dummy.m */,
+				9AAE67905C4CCD94BEC4A953 /* Pods-ExampleTests-environment.h */,
+				C40B50D36B9F86C5A68CD77E /* Pods-ExampleTests-frameworks.sh */,
+				E5E01F2B9AF880C8D73AE6D3 /* Pods-ExampleTests-resources.sh */,
+				7F70FC22923EF16DE6DBD150 /* Pods-ExampleTests-umbrella.h */,
+				996481E56DC1D603DD988E9E /* Pods-ExampleTests.debug.xcconfig */,
+				F6015D43D7FBDF4EAEA17BC2 /* Pods-ExampleTests.release.xcconfig */,
+			);
+			name = "Pods-ExampleTests";
+			path = "Target Support Files/Pods-ExampleTests";
+			sourceTree = "<group>";
+		};
+		EF49C5F8418D8E5CF189B726 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7489B4DA680333CF02E289D4 /* Info.plist */,
+				147408391F1F998BF4DFF0A3 /* Info.plist */,
+				658937161FA7ED5C4729DB7B /* Pods-Example-SwiftFontName.modulemap */,
+				9F62DCE3DA01C3D7879B7A6D /* Pods-Example-SwiftFontName.xcconfig */,
+				3A0F0EF0A72B917FB645B24A /* Pods-Example-SwiftFontName-Private.xcconfig */,
+				B9C2C8EB4A2511EB3ED4B931 /* Pods-Example-SwiftFontName-dummy.m */,
+				86A6A9E0D5A5821D1A7CF847 /* Pods-Example-SwiftFontName-prefix.pch */,
+				7DB7C72F547C0DBED1F21BBB /* Pods-Example-SwiftFontName-umbrella.h */,
+				B9B1C3D153CF41203EC9D275 /* Pods-ExampleTests-SwiftFontName.modulemap */,
+				02C1A687D98AE62553D0E766 /* Pods-ExampleTests-SwiftFontName.xcconfig */,
+				55499291C638E377EDBDA4CA /* Pods-ExampleTests-SwiftFontName-Private.xcconfig */,
+				9F38E409612A8F91F89620C0 /* Pods-ExampleTests-SwiftFontName-dummy.m */,
+				188BEF1414ACEE53CA7D18B7 /* Pods-ExampleTests-SwiftFontName-prefix.pch */,
+				67D62565CE7C10E547A04288 /* Pods-ExampleTests-SwiftFontName-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-Example-SwiftFontName";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		20F0ABAF95760BA5DD31DB13 /* Headers */ = {
+		22BCE5C400026E110B06DA66 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AB3F9CFE590D2A0AAFDF243 /* Pods-Example-umbrella.h in Headers */,
+				8065D32024233FECBAE7E544 /* Pods-Example-SwiftFontName-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2147A75DB36161694D9491DF /* Headers */ = {
+		2FA7F8422F7AB79BED0D9337 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F73437761558A76A16B3694 /* Pods-ExampleTests-umbrella.h in Headers */,
+				39F7D89712FBD18AE646C969 /* Pods-ExampleTests-SwiftFontName-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23706E480231BB1C9D199A03 /* Headers */ = {
+		CD3062C397CE30BF9E505EE0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B77EA54AE75176BD8B133A3B /* Pods-Example-SwiftFontName-umbrella.h in Headers */,
+				8D41FBDBE01052430E27C8B9 /* Pods-ExampleTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52576E8C811BDB094B1B72DD /* Headers */ = {
+		FC68F168F176D5FEB3F9D156 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8405830DFF667FD6CA0DF5F /* Pods-ExampleTests-SwiftFontName-umbrella.h in Headers */,
+				78EBD4EB53370B651954E0A9 /* Pods-Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2C37A9A657B5D08B9C7796A1 /* Pods-Example */ = {
+		142D29003623D5BEC1702BAD /* Pods-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B230CDFC4E9F71721CF20A1 /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildConfigurationList = F2B08838680B3B395C315959 /* Build configuration list for PBXNativeTarget "Pods-Example" */;
 			buildPhases = (
-				54EB7063B8746EA83EC878C7 /* Sources */,
-				ECE6262C1269D4BA669F94DA /* Frameworks */,
-				20F0ABAF95760BA5DD31DB13 /* Headers */,
+				619F0CA5ABEFE63AD9F82F0B /* Sources */,
+				52C0BD5386CCA8E7249FA5E8 /* Frameworks */,
+				FC68F168F176D5FEB3F9D156 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5B606D5C2DB0D8E6C1C13DB1 /* PBXTargetDependency */,
+				968ADE88BF8C895AB7319B1E /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = "Pods-Example";
-			productReference = EBC573070CBB3759A1FC4DE6 /* Pods_Example.framework */;
+			productReference = 749226F2EB455A644ABA3ACA /* Pods_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		421F1091537623BC9B25536E /* Pods-ExampleTests-SwiftFontName */ = {
+		62163EDDD1043A0A652D5F34 /* Pods-Example-SwiftFontName */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBCE9734E26696CE98B838DD /* Build configuration list for PBXNativeTarget "Pods-ExampleTests-SwiftFontName" */;
+			buildConfigurationList = 396FD3CECA5630DDA6721061 /* Build configuration list for PBXNativeTarget "Pods-Example-SwiftFontName" */;
 			buildPhases = (
-				93DAE1DF625BA8AD47D489A6 /* Sources */,
-				D9B115872ADBBEB2E26EC6E9 /* Frameworks */,
-				52576E8C811BDB094B1B72DD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-ExampleTests-SwiftFontName";
-			productName = "Pods-ExampleTests-SwiftFontName";
-			productReference = DDB7DD4DBA247EBA279779FC /* SwiftFontName.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5E54FC244CAA609F7282C503 /* Pods-Example-SwiftFontName */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3169960979FE7514F1F6BEB0 /* Build configuration list for PBXNativeTarget "Pods-Example-SwiftFontName" */;
-			buildPhases = (
-				D1F1C87FA1590396247A2493 /* Sources */,
-				2F2DAA927E844A3F2204A376 /* Frameworks */,
-				23706E480231BB1C9D199A03 /* Headers */,
+				1EDB27D971545D5F45D901E6 /* Sources */,
+				D9642BDA91EDACD72F0A7EEF /* Frameworks */,
+				22BCE5C400026E110B06DA66 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -342,111 +329,185 @@
 			);
 			name = "Pods-Example-SwiftFontName";
 			productName = "Pods-Example-SwiftFontName";
-			productReference = F96B780688FB5814E99ED2D0 /* SwiftFontName.framework */;
+			productReference = 7E50F867F6F7D44B5796D469 /* SwiftFontName.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D05DDD000470B55B950441CF /* Pods-ExampleTests */ = {
+		6D42C672788A9017DA5A8AE7 /* Pods-ExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C28E01F9A165E8812B99462D /* Build configuration list for PBXNativeTarget "Pods-ExampleTests" */;
+			buildConfigurationList = A90B6A784C631BCD5ABFFE9D /* Build configuration list for PBXNativeTarget "Pods-ExampleTests" */;
 			buildPhases = (
-				4D0E56ABF111235BDC5C841E /* Sources */,
-				067CF4D80469EEA6CF6F8ECC /* Frameworks */,
-				2147A75DB36161694D9491DF /* Headers */,
+				4DC84E900A4AA3187B0DDB0A /* Sources */,
+				52368D70D5A8B25A2FB64DA9 /* Frameworks */,
+				CD3062C397CE30BF9E505EE0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				715B06531336ACA1B2FBDBCA /* PBXTargetDependency */,
+				07777CDA63FB013A003603CF /* PBXTargetDependency */,
 			);
 			name = "Pods-ExampleTests";
 			productName = "Pods-ExampleTests";
-			productReference = CBA80AA845D1D2105B1469F2 /* Pods_ExampleTests.framework */;
+			productReference = A022F6C4584530008B336A26 /* Pods_ExampleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0C88CF452E26A9A392E8A4F /* Pods-ExampleTests-SwiftFontName */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AD12CE786B2AC7C44BD4F8F /* Build configuration list for PBXNativeTarget "Pods-ExampleTests-SwiftFontName" */;
+			buildPhases = (
+				D7307370F38F76A83B50B2BF /* Sources */,
+				0224F60DCFABC0F4E818C752 /* Frameworks */,
+				2FA7F8422F7AB79BED0D9337 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ExampleTests-SwiftFontName";
+			productName = "Pods-ExampleTests-SwiftFontName";
+			productReference = 4E8F5003D476F22398DE9ABC /* SwiftFontName.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		09F7CB619AE528585C3A8D6B /* Project object */ = {
+		F52112DF08EE4B7F9F887F47 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = CD25B11EE246A372E808F137 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = A61577908896F04819888B47 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4D6C7FED3657499A2E1149C2;
-			productRefGroup = 0821EE462FD0F58C3B1A1912 /* Products */;
+			mainGroup = C37759910F6E0FF5E7BEC468;
+			productRefGroup = 675FDA076EE3882A8E64C580 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C37A9A657B5D08B9C7796A1 /* Pods-Example */,
-				5E54FC244CAA609F7282C503 /* Pods-Example-SwiftFontName */,
-				D05DDD000470B55B950441CF /* Pods-ExampleTests */,
-				421F1091537623BC9B25536E /* Pods-ExampleTests-SwiftFontName */,
+				142D29003623D5BEC1702BAD /* Pods-Example */,
+				62163EDDD1043A0A652D5F34 /* Pods-Example-SwiftFontName */,
+				6D42C672788A9017DA5A8AE7 /* Pods-ExampleTests */,
+				A0C88CF452E26A9A392E8A4F /* Pods-ExampleTests-SwiftFontName */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D0E56ABF111235BDC5C841E /* Sources */ = {
+		1EDB27D971545D5F45D901E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B961373B4BCE8D4B47898D39 /* Pods-ExampleTests-dummy.m in Sources */,
+				1405DF7D07874CFE50CFC02E /* FontName.swift in Sources */,
+				E759A621DD2A8C84E5AFB06C /* LocalizedFont.swift in Sources */,
+				2B7F9CE33EC081D8C12022B0 /* Pods-Example-SwiftFontName-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54EB7063B8746EA83EC878C7 /* Sources */ = {
+		4DC84E900A4AA3187B0DDB0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				438D7A5B359168C240CA088A /* Pods-Example-dummy.m in Sources */,
+				6075B6613B26FC60C69B1835 /* Pods-ExampleTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93DAE1DF625BA8AD47D489A6 /* Sources */ = {
+		619F0CA5ABEFE63AD9F82F0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD1BC350F73A74C20301C9A2 /* FontName.swift in Sources */,
-				68F41B09132C28A940C754E5 /* Pods-ExampleTests-SwiftFontName-dummy.m in Sources */,
+				051354626E4F741F0CD27DD5 /* Pods-Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1F1C87FA1590396247A2493 /* Sources */ = {
+		D7307370F38F76A83B50B2BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D93D6963464F99C706F4CF0E /* FontName.swift in Sources */,
-				96981DB22D31E2B82482E011 /* Pods-Example-SwiftFontName-dummy.m in Sources */,
+				541853AF69E0849D2907D9AC /* FontName.swift in Sources */,
+				611CB5B93D2D86C03158BA96 /* LocalizedFont.swift in Sources */,
+				7784FE1BFDF649A3D067EFFA /* Pods-ExampleTests-SwiftFontName-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5B606D5C2DB0D8E6C1C13DB1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Example-SwiftFontName";
-			target = 5E54FC244CAA609F7282C503 /* Pods-Example-SwiftFontName */;
-			targetProxy = 653EF26DE42DB2851F6F87DC /* PBXContainerItemProxy */;
-		};
-		715B06531336ACA1B2FBDBCA /* PBXTargetDependency */ = {
+		07777CDA63FB013A003603CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ExampleTests-SwiftFontName";
-			target = 421F1091537623BC9B25536E /* Pods-ExampleTests-SwiftFontName */;
-			targetProxy = E5D6BA58708C06A998A9378B /* PBXContainerItemProxy */;
+			target = A0C88CF452E26A9A392E8A4F /* Pods-ExampleTests-SwiftFontName */;
+			targetProxy = 78A75BBA80FEFD747AA0638D /* PBXContainerItemProxy */;
+		};
+		968ADE88BF8C895AB7319B1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Example-SwiftFontName";
+			target = 62163EDDD1043A0A652D5F34 /* Pods-Example-SwiftFontName */;
+			targetProxy = 939C3ED15F330CFCF1D47973 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		19CE20DF595D68EE7602364B /* Release */ = {
+		123A1C5F5F23FEDBB25BA4EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92422208BD5553B70D020C0A /* Pods-ExampleTests.release.xcconfig */;
+			baseConfigurationReference = 55499291C638E377EDBDA4CA /* Pods-ExampleTests-SwiftFontName-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExampleTests-SwiftFontName/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftFontName;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9076115C7A0F25454500D89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0F0EF0A72B917FB645B24A /* Pods-Example-SwiftFontName-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Example-SwiftFontName/Pods-Example-SwiftFontName-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example-SwiftFontName/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Example-SwiftFontName/Pods-Example-SwiftFontName.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftFontName;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		922879626860B3C57A078E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6015D43D7FBDF4EAEA17BC2 /* Pods-ExampleTests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -473,9 +534,9 @@
 			};
 			name = Release;
 		};
-		351B0727CC872AAFB241F5CA /* Debug */ = {
+		AA38C0C248A96247BCF1FE53 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBFF442FB392B7212E45AB39 /* Pods-ExampleTests.debug.xcconfig */;
+			baseConfigurationReference = 55499291C638E377EDBDA4CA /* Pods-ExampleTests-SwiftFontName-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -484,16 +545,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ExampleTests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExampleTests-SwiftFontName/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-ExampleTests/Pods-ExampleTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_ExampleTests;
+				PRODUCT_NAME = SwiftFontName;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -503,7 +562,63 @@
 			};
 			name = Debug;
 		};
-		72D7B33E159032D76363BB42 /* Debug */ = {
+		DC2A511439DDD7128A2DE7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CB91532B1A71A2726CD67C /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6CD648EC6BBBF61F730BB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0F0EF0A72B917FB645B24A /* Pods-Example-SwiftFontName-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Example-SwiftFontName/Pods-Example-SwiftFontName-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example-SwiftFontName/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Example-SwiftFontName/Pods-Example-SwiftFontName.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftFontName;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8708D798B90FC5C377ED5A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -542,36 +657,9 @@
 			};
 			name = Debug;
 		};
-		7A1467BC52B5D314FCA69D34 /* Release */ = {
+		ED1340D353A78CC40E73517C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCD17F672208E1500DAD2EFF /* Pods-ExampleTests-SwiftFontName-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-ExampleTests-SwiftFontName/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftFontName;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7B44DECF9617446AAE2DB67D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AFE350C9043032A1312E1D9 /* Pods-Example.debug.xcconfig */;
+			baseConfigurationReference = F7D72E70F24556BEC102345A /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -599,90 +687,7 @@
 			};
 			name = Debug;
 		};
-		9430B479DD1978D658C67FF6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC563034753FBF660B2D3466 /* Pods-Example-SwiftFontName-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Example-SwiftFontName/Pods-Example-SwiftFontName-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Example-SwiftFontName/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Example-SwiftFontName/Pods-Example-SwiftFontName.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftFontName;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A6927425528D24FCE727FD8D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC563034753FBF660B2D3466 /* Pods-Example-SwiftFontName-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Example-SwiftFontName/Pods-Example-SwiftFontName-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Example-SwiftFontName/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Example-SwiftFontName/Pods-Example-SwiftFontName.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftFontName;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B8CCB536DC4635861A4BB68A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCD17F672208E1500DAD2EFF /* Pods-ExampleTests-SwiftFontName-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-ExampleTests-SwiftFontName/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-ExampleTests-SwiftFontName/Pods-ExampleTests-SwiftFontName.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftFontName;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CF568F1D119E204A3E209CE4 /* Release */ = {
+		EE7EABD405FA5A8561B445D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -716,9 +721,9 @@
 			};
 			name = Release;
 		};
-		D39EE1D23ABD990E76A5A4CF /* Release */ = {
+		FA642FCCF0C2230499DA75AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CD5E208D1A0E99B5A91BADB /* Pods-Example.release.xcconfig */;
+			baseConfigurationReference = 996481E56DC1D603DD988E9E /* Pods-ExampleTests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -727,73 +732,74 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExampleTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExampleTests/Pods-ExampleTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Example;
+				PRODUCT_NAME = Pods_ExampleTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B230CDFC4E9F71721CF20A1 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+		396FD3CECA5630DDA6721061 /* Build configuration list for PBXNativeTarget "Pods-Example-SwiftFontName" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B44DECF9617446AAE2DB67D /* Debug */,
-				D39EE1D23ABD990E76A5A4CF /* Release */,
+				9076115C7A0F25454500D89E /* Debug */,
+				E6CD648EC6BBBF61F730BB57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3169960979FE7514F1F6BEB0 /* Build configuration list for PBXNativeTarget "Pods-Example-SwiftFontName" */ = {
+		8AD12CE786B2AC7C44BD4F8F /* Build configuration list for PBXNativeTarget "Pods-ExampleTests-SwiftFontName" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9430B479DD1978D658C67FF6 /* Debug */,
-				A6927425528D24FCE727FD8D /* Release */,
+				AA38C0C248A96247BCF1FE53 /* Debug */,
+				123A1C5F5F23FEDBB25BA4EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C28E01F9A165E8812B99462D /* Build configuration list for PBXNativeTarget "Pods-ExampleTests" */ = {
+		A61577908896F04819888B47 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				351B0727CC872AAFB241F5CA /* Debug */,
-				19CE20DF595D68EE7602364B /* Release */,
+				E8708D798B90FC5C377ED5A1 /* Debug */,
+				EE7EABD405FA5A8561B445D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD25B11EE246A372E808F137 /* Build configuration list for PBXProject "Pods" */ = {
+		A90B6A784C631BCD5ABFFE9D /* Build configuration list for PBXNativeTarget "Pods-ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72D7B33E159032D76363BB42 /* Debug */,
-				CF568F1D119E204A3E209CE4 /* Release */,
+				FA642FCCF0C2230499DA75AB /* Debug */,
+				922879626860B3C57A078E34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBCE9734E26696CE98B838DD /* Build configuration list for PBXNativeTarget "Pods-ExampleTests-SwiftFontName" */ = {
+		F2B08838680B3B395C315959 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8CCB536DC4635861A4BB68A /* Debug */,
-				7A1467BC52B5D314FCA69D34 /* Release */,
+				ED1340D353A78CC40E73517C /* Debug */,
+				DC2A511439DDD7128A2DE7EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 09F7CB619AE528585C3A8D6B /* Project object */;
+	rootObject = F52112DF08EE4B7F9F887F47 /* Project object */;
 }

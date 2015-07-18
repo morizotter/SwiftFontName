@@ -1,14 +1,14 @@
 PODS:
-  - SwiftFontFamily (0.1.0)
+  - SwiftFontName (0.1.0)
 
 DEPENDENCIES:
-  - SwiftFontFamily (from `..`)
+  - SwiftFontName (from `..`)
 
 EXTERNAL SOURCES:
-  SwiftFontFamily:
+  SwiftFontName:
     :path: ".."
 
 SPEC CHECKSUMS:
-  SwiftFontFamily: b0b84eb923cd96c8046b8d9635ced1ef550d631f
+  SwiftFontName: 50a62a0f431db80e4fea4e13989f75237c953540
 
 COCOAPODS: 0.37.2

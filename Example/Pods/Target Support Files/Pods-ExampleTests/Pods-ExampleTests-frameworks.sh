@@ -48,8 +48,8 @@ code_sign() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework 'SwiftFontFamily.framework'
+  install_framework 'SwiftFontName.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework 'SwiftFontFamily.framework'
+  install_framework 'SwiftFontName.framework'
 fi

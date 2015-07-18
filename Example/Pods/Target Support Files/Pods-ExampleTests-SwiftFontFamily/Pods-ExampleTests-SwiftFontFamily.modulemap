@@ -1,6 +1,0 @@
-framework module SwiftFontFamily {
-  umbrella header "Pods-ExampleTests-SwiftFontFamily-umbrella.h"
-
-  export *
-  module * { export * }
-}

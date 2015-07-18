@@ -6,9 +6,9 @@
 // project.
 
 
-// SwiftFontFamily
-#define COCOAPODS_POD_AVAILABLE_SwiftFontFamily
-#define COCOAPODS_VERSION_MAJOR_SwiftFontFamily 0
-#define COCOAPODS_VERSION_MINOR_SwiftFontFamily 1
-#define COCOAPODS_VERSION_PATCH_SwiftFontFamily 0
+// SwiftFontName
+#define COCOAPODS_POD_AVAILABLE_SwiftFontName
+#define COCOAPODS_VERSION_MAJOR_SwiftFontName 0
+#define COCOAPODS_VERSION_MINOR_SwiftFontName 1
+#define COCOAPODS_VERSION_PATCH_SwiftFontName 0
 

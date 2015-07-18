@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SwiftFontFamily
+import SwiftFontName
 
 class SwiftFontNameViewModel {
     

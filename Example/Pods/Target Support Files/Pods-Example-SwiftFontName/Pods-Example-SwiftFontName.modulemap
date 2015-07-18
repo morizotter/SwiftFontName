@@ -1,0 +1,6 @@
+framework module SwiftFontName {
+  umbrella header "Pods-Example-SwiftFontName-umbrella.h"
+
+  export *
+  module * { export * }
+}

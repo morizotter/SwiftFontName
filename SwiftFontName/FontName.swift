@@ -1,5 +1,5 @@
 //
-//  FontFamily.swift
+//  FontName.swift
 //  Example
 //
 //  Created by MORITANAOKI on 2015/07/18.
@@ -510,7 +510,7 @@ extension FontName {
 
 extension FontName {
     private static func fontName(fontName name: String, osVersion version: Float? = nil) -> String {
-        if let version = version { }
+        if let version = version {}
         return name
     }
 }

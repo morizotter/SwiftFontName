@@ -8,7 +8,7 @@
 
 // SwiftFontName
 #define COCOAPODS_POD_AVAILABLE_SwiftFontName
-#define COCOAPODS_VERSION_MAJOR_SwiftFontName 0
-#define COCOAPODS_VERSION_MINOR_SwiftFontName 1
+#define COCOAPODS_VERSION_MAJOR_SwiftFontName 1
+#define COCOAPODS_VERSION_MINOR_SwiftFontName 0
 #define COCOAPODS_VERSION_PATCH_SwiftFontName 0
 

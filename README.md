@@ -69,7 +69,7 @@ github "morizotter/SwiftFontName" ~> 1.0
 
 ### Manually
 
-To copy `FontName.swift` and `LocalizedFont.swift` in SwiftFontName directory, you can use this library, too.
+To copy `FontName.swift` and `LocalizedFontName.swift` in SwiftFontName directory, you can use this library, too.
 
 ## Contribution
 

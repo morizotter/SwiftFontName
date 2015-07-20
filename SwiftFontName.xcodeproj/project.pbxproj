@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		908CE0951B5AB6F10009CA5D /* SwiftFontName.h in Headers */ = {isa = PBXBuildFile; fileRef = 908CE0941B5AB6F10009CA5D /* SwiftFontName.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		908CE0AB1B5AB7400009CA5D /* FontName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0A91B5AB7400009CA5D /* FontName.swift */; };
-		908CE0AC1B5AB7400009CA5D /* LocalizedFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0AA1B5AB7400009CA5D /* LocalizedFont.swift */; };
+		908CE0AC1B5AB7400009CA5D /* LocalizedFontName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE0AA1B5AB7400009CA5D /* LocalizedFontName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,7 +17,7 @@
 		908CE0931B5AB6F10009CA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		908CE0941B5AB6F10009CA5D /* SwiftFontName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftFontName.h; sourceTree = "<group>"; };
 		908CE0A91B5AB7400009CA5D /* FontName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontName.swift; sourceTree = "<group>"; };
-		908CE0AA1B5AB7400009CA5D /* LocalizedFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedFont.swift; sourceTree = "<group>"; };
+		908CE0AA1B5AB7400009CA5D /* LocalizedFontName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedFontName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				908CE0A91B5AB7400009CA5D /* FontName.swift */,
-				908CE0AA1B5AB7400009CA5D /* LocalizedFont.swift */,
+				908CE0AA1B5AB7400009CA5D /* LocalizedFontName.swift */,
 				908CE0941B5AB6F10009CA5D /* SwiftFontName.h */,
 				908CE0921B5AB6F10009CA5D /* Supporting Files */,
 			);
@@ -145,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				908CE0AC1B5AB7400009CA5D /* LocalizedFont.swift in Sources */,
+				908CE0AC1B5AB7400009CA5D /* LocalizedFontName.swift in Sources */,
 				908CE0AB1B5AB7400009CA5D /* FontName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

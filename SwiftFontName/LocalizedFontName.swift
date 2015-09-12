@@ -9,7 +9,7 @@
 import UIKit
 
 public func LocalizedFontName(defaultFontName: String, localizedFontNames: [String: String]) -> String {
-    let preferredLanguage = NSLocale.preferredLanguages().first as! String
+    let preferredLanguage : String = NSLocale.preferredLanguages().first!
     if localizedFontNames.indexForKey(preferredLanguage) != nil {
         return localizedFontNames[preferredLanguage]!
     }

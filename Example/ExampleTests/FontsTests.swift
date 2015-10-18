@@ -24,6 +24,7 @@ class FontsTests: XCTestCase {
         for systemFamilyName in UIFont.familyNames() {
             for systemFontName in UIFont.fontNamesForFamilyName(systemFamilyName) {
                 let index = FontName.fontNames().indexOf(systemFontName)
+                print(systemFontName)
                 XCTAssertTrue(index != nil, "\(systemFontName) doesn't exist.")
             }
         }

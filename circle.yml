@@ -7,7 +7,7 @@ machine:
   environment:
     XCODE_SCHEME: ExampleTests
   xcode:
-    version: "6.4"
+    version: "7.0"
 test:
   override:
     - xcodebuild test -scheme Example-en -workspace Example.xcworkspace

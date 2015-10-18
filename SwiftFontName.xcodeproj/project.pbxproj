@@ -104,6 +104,7 @@
 		908CE05E1B5AB69F0009CA5D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = molabo;
 				TargetAttributes = {

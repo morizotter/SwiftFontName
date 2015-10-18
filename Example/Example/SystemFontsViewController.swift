@@ -19,11 +19,11 @@ class SystemFontsViewController: UITableViewController {
 
 extension SystemFontsViewController {
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return count(viewModel.families)
+        return viewModel.families.count
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return count(viewModel.families[section].fonts)
+        return viewModel.families[section].fonts.count
     }
     
     override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -34,7 +34,7 @@ extension SystemFontsViewController {
         let family = viewModel.families[indexPath.section]
         let font = family.fonts[indexPath.row]
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as UITableViewCell!
         cell.textLabel?.text = font.name
         cell.textLabel?.font = font.font
         return cell

@@ -565,7 +565,7 @@ extension FontName {
 }
 
 extension FontName {
-    private static func fontName(fontName name: String, osVersion version: Float? = nil) -> String {
+    fileprivate static func fontName(fontName name: String, osVersion version: Float? = nil) -> String {
         if let _ = version {}
         return name
     }

@@ -10,6 +10,6 @@ machine:
     version: "8.0"
 test:
   override:
-    - xcodebuild test -workspace Example.xcworkspace -scheme ExampleTests-en -destination 'platform=iOS Simulator,name=iPhone 6s,OS=10.0'
-    - xcodebuild test -workspace Example.xcworkspace -scheme ExampleTests-ja -destination 'platform=iOS Simulator,name=iPhone 6s,OS=10.0'
-    - xcodebuild test -workspace Example.xcworkspace -scheme ExampleTests-fr -destination 'platform=iOS Simulator,name=iPhone 6s,OS=10.0'
+    - xcodebuild test -project Example.xcodeproj -scheme ExampleTests-en -destination 'platform=iOS Simulator,name=iPhone 6s,OS=10.0'
+    - xcodebuild test -project Example.xcodeproj -scheme ExampleTests-ja -destination 'platform=iOS Simulator,name=iPhone 6s,OS=10.0'
+    - xcodebuild test -project Example.xcodeproj -scheme ExampleTests-fr -destination 'platform=iOS Simulator,name=iPhone 6s,OS=10.0'

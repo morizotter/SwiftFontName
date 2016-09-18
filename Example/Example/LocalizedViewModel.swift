@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SwiftFontName
 
 class LocalizedViewModel {
     var localizedText = LocalizedFontName(FontName.Copperplate, localizedFontNames: ["ja": FontName.HiraKakuProNW6, "en": FontName.HelveticaNeueLight])

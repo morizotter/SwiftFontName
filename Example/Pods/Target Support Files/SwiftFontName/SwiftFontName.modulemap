@@ -1,6 +1,0 @@
-framework module SwiftFontName {
-  umbrella header "SwiftFontName-umbrella.h"
-
-  export *
-  module * { export * }
-}

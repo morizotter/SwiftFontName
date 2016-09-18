@@ -149,6 +149,7 @@ public struct FontName {
     public static let FuturaCondensedExtraBold = FontName.fontName(fontName: "Futura-CondensedExtraBold")
     public static let FuturaMedium = FontName.fontName(fontName: "Futura-Medium")
     public static let FuturaMediumItalic = FontName.fontName(fontName: "Futura-MediumItalic")
+    public static let FuturaBold = FontName.fontName(fontName: "Futura-Bold", osVersion: 10.0)
     public static let Farah = FontName.fontName(fontName: "Farah")
     public static let KannadaSangamMN = FontName.fontName(fontName: "KannadaSangamMN")
     public static let KannadaSangamMNBold = FontName.fontName(fontName: "KannadaSangamMN-Bold")
@@ -227,6 +228,7 @@ public struct FontName {
     public static let AmericanTypewriter = FontName.fontName(fontName: "AmericanTypewriter")
     public static let AmericanTypewriterCondensedBold = FontName.fontName(fontName: "AmericanTypewriter-CondensedBold")
     public static let AmericanTypewriterLight = FontName.fontName(fontName: "AmericanTypewriter-Light")
+    public static let AmericanTypewriterSemibold = FontName.fontName(fontName: "AmericanTypewriter-Semibold", osVersion: 10.0)
     public static let AmericanTypewriterBold = FontName.fontName(fontName: "AmericanTypewriter-Bold")
     public static let AmericanTypewriterCondensed = FontName.fontName(fontName: "AmericanTypewriter-Condensed")
     public static let AvenirNextUltraLight = FontName.fontName(fontName: "AvenirNext-UltraLight")
@@ -270,6 +272,8 @@ public struct FontName {
     public static let PingFangSCThin = FontName.fontName(fontName: "PingFangSC-Thin", osVersion: 9.0)
     public static let PingFangSCLight = FontName.fontName(fontName: "PingFangSC-Light", osVersion: 9.0)
     public static let PingFangSCMedium = FontName.fontName(fontName: "PingFangSC-Medium", osVersion: 9.0)
+    public static let MyanmarSangamMNBold = FontName.fontName(fontName: "MyanmarSangamMN-Bold", osVersion: 10.0)
+    public static let MyanmarSangamMN = FontName.fontName(fontName: "MyanmarSangamMN", osVersion: 10.0)
     public static let EuphemiaUCASItalic = FontName.fontName(fontName: "EuphemiaUCAS-Italic")
     public static let EuphemiaUCAS = FontName.fontName(fontName: "EuphemiaUCAS")
     public static let EuphemiaUCASBold = FontName.fontName(fontName: "EuphemiaUCAS-Bold")
@@ -427,6 +431,7 @@ extension FontName {
             FuturaCondensedExtraBold,
             FuturaMedium,
             FuturaMediumItalic,
+            FuturaBold,
             Farah,
             KannadaSangamMN,
             KannadaSangamMNBold,
@@ -505,6 +510,7 @@ extension FontName {
             AmericanTypewriter,
             AmericanTypewriterCondensedBold,
             AmericanTypewriterLight,
+            AmericanTypewriterSemibold,
             AmericanTypewriterBold,
             AmericanTypewriterCondensed,
             AvenirNextUltraLight,
@@ -548,6 +554,8 @@ extension FontName {
             PingFangSCThin,
             PingFangSCLight,
             PingFangSCMedium,
+            MyanmarSangamMNBold,
+            MyanmarSangamMN,
             EuphemiaUCASItalic,
             EuphemiaUCAS,
             EuphemiaUCASBold,

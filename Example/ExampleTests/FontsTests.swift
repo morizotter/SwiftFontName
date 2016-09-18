@@ -8,7 +8,8 @@
 
 import UIKit
 import XCTest
-import SwiftFontName
+
+@testable import Example
 
 class FontsTests: XCTestCase {
     

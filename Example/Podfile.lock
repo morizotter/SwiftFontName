@@ -1,5 +1,5 @@
 PODS:
-  - SwiftFontName (1.0.1)
+  - SwiftFontName (2.0.0)
 
 DEPENDENCIES:
   - SwiftFontName (from `..`)
@@ -9,6 +9,8 @@ EXTERNAL SOURCES:
     :path: ".."
 
 SPEC CHECKSUMS:
-  SwiftFontName: c5285065e78f6db10ccc3c5114ab600a3c1f9a62
+  SwiftFontName: 7c3fdb6fc334cd4a8f2953c450a7b40c8d1400e4
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: ee338d71f7460c2b0ebf970ee03af7fe06df1a2a
+
+COCOAPODS: 1.0.1

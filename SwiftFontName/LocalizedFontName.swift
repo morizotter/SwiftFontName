@@ -8,8 +8,8 @@
 
 import UIKit
 
-public func LocalizedFontName(defaultFontName: String, localizedFontNames: [String: String]) -> String {
-    let preferredLanguage : String = NSLocale.preferredLanguages().first!
+public func LocalizedFontName(_ defaultFontName: String, localizedFontNames: [String: String]) -> String {
+    let preferredLanguage : String = Locale.preferredLanguages.first!
     for (k, _) in localizedFontNames {
         if preferredLanguage == k || preferredLanguage.hasPrefix(k + "-") {
             return localizedFontNames[k]!

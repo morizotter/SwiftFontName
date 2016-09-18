@@ -21,9 +21,9 @@ class FontsTests: XCTestCase {
     }
     
     func testExistsFontNames() {
-        for systemFamilyName in UIFont.familyNames() {
-            for systemFontName in UIFont.fontNamesForFamilyName(systemFamilyName) {
-                let index = FontName.fontNames().indexOf(systemFontName)
+        for systemFamilyName in UIFont.familyNames {
+            for systemFontName in UIFont.fontNames(forFamilyName: systemFamilyName) {
+                let index = FontName.fontNames().index(of: systemFontName)
                 print(systemFontName)
                 XCTAssertTrue(index != nil, "\(systemFontName) doesn't exist.")
             }
@@ -31,7 +31,7 @@ class FontsTests: XCTestCase {
     }
     
     func testLocalizations() {
-        let preferredLanguage = NSLocale.preferredLanguages().first!
+        let preferredLanguage = Locale.preferredLanguages.first!
         let fontName = LocalizedFontName(FontName.Copperplate, localizedFontNames: ["ja": FontName.HiraKakuProNW6, "en": FontName.HelveticaNeueLight])
         if preferredLanguage == "ja" {
             XCTAssertEqual(fontName, FontName.HiraKakuProNW6, "Localization failed: \(preferredLanguage)")

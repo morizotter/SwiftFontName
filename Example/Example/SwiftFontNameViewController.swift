@@ -18,25 +18,25 @@ class SwiftFontNameViewController: UITableViewController {
 }
 
 extension SwiftFontNameViewController {
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         return viewModel.families.count
     }
     
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel.families[section].fonts.count
     }
     
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return viewModel.families[section].name
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let family = viewModel.families[indexPath.section]
-        let font = family.fonts[indexPath.row]
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let family = viewModel.families[(indexPath as NSIndexPath).section]
+        let font = family.fonts[(indexPath as NSIndexPath).row]
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as UITableViewCell!
-        cell.textLabel?.text = font.name
-        cell.textLabel?.font = font.font
-        return cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as UITableViewCell!
+        cell?.textLabel?.text = font.name
+        cell?.textLabel?.font = font.font
+        return cell!
     }
 }

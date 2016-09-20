@@ -7,9 +7,9 @@ machine:
   environment:
     XCODE_SCHEME: ExampleTests
   xcode:
-    version: "7.0"
+    version: "8.0"
 test:
   override:
-    - xcodebuild test -scheme Example-en -workspace Example.xcworkspace
-    - xcodebuild test -scheme Example-ja -workspace Example.xcworkspace
-    - xcodebuild test -scheme Example-fr -workspace Example.xcworkspace
+    - xcodebuild test -project Example.xcodeproj -scheme Example-en -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.0'
+    - xcodebuild test -project Example.xcodeproj -scheme Example-ja -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.0'
+    - xcodebuild test -project Example.xcodeproj -scheme Example-fr -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.0'

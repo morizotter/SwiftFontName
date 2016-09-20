@@ -47,7 +47,8 @@ It means that when preferredLanguage is Japanese, use `HiraKakuProNW6`. And when
 ## Requirements
 
 - iOS8.0 or later
-- Xcode 7.0
+- Xcode 8.0
+- Swift 2.3
 
 ## Installation
 
@@ -58,13 +59,13 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 use_frameworks!
-pod 'SwiftFontName', '~> 2.0.0'
+pod 'SwiftFontName', '~> 2.1.0'
 ```
 
 ### [Carthage](https://github.com/Carthage/Carthage):
 
 ```ogdl
-github "morizotter/SwiftFontName" ~> 2.0
+github "morizotter/SwiftFontName" ~> 2.1
 ```
 
 ### Manually

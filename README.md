@@ -47,7 +47,8 @@ It means that when preferredLanguage is Japanese, use `HiraKakuProNW6`. And when
 ## Requirements
 
 - iOS8.0 or later
-- Xcode 7.0
+- Xcode 8.0
+- Swift 3
 
 ## Installation
 

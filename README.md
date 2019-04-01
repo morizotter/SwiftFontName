@@ -59,13 +59,13 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 use_frameworks!
-pod 'SwiftFontName', '~> 2.0.0'
+pod 'SwiftFontName', '~> 4.0.0'
 ```
 
 ### [Carthage](https://github.com/Carthage/Carthage):
 
 ```ogdl
-github "morizotter/SwiftFontName" ~> 2.0
+github "morizotter/SwiftFontName" ~> 4.0
 ```
 
 ### Manually

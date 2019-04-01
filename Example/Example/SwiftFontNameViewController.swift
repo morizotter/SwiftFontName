@@ -34,7 +34,7 @@ extension SwiftFontNameViewController {
         let family = viewModel.families[(indexPath as NSIndexPath).section]
         let font = family.fonts[(indexPath as NSIndexPath).row]
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as UITableViewCell!
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as UITableViewCell?
         cell?.textLabel?.text = font.name
         cell?.textLabel?.font = font.font
         return cell!

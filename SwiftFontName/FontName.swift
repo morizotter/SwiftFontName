@@ -48,6 +48,7 @@ public struct FontName {
     public static let GillSansUltraBold = FontName.fontName(fontName: "GillSans-UltraBold")
     public static let MarkerFeltThin = FontName.fontName(fontName: "MarkerFelt-Thin")
     public static let MarkerFeltWide = FontName.fontName(fontName: "MarkerFelt-Wide")
+    public static let HiraMaruProNW4 = FontName.fontName(fontName: "HiraMaruProN-W4", osVersion: 11.0)
     public static let Thonburi = FontName.fontName(fontName: "Thonburi")
     public static let ThonburiBold = FontName.fontName(fontName: "Thonburi-Bold")
     public static let ThonburiLight = FontName.fontName(fontName: "Thonburi-Light")
@@ -162,6 +163,7 @@ public struct FontName {
     public static let ArialItalicMT = FontName.fontName(fontName: "Arial-ItalicMT")
     public static let PartyLetPlain = FontName.fontName(fontName: "PartyLetPlain")
     public static let Chalkduster = FontName.fontName(fontName: "Chalkduster")
+    public static let KefaRegular = FontName.fontName(fontName: "Kefa-Regular", osVersion: 11.0)
     public static let HiraKakuProNW6 = FontName.fontName(fontName: "HiraKakuProN-W6")
     public static let HiraKakuProNW3 = FontName.fontName(fontName: "HiraKakuProN-W3")
     public static let HoeflerTextItalic = FontName.fontName(fontName: "HoeflerText-Italic")
@@ -213,6 +215,10 @@ public struct FontName {
     public static let DevanagariSangamMNBold = FontName.fontName(fontName: "DevanagariSangamMN-Bold")
     public static let OriyaSangamMN = FontName.fontName(fontName: "OriyaSangamMN")
     public static let OriyaSangamMNBold = FontName.fontName(fontName: "OriyaSangamMN-Bold")
+    public static let RockwellItalic = FontName.fontName(fontName: "Rockwell-Italic", osVersion: 12.0)
+    public static let RockwellRegular = FontName.fontName(fontName: "Rockwell-Regular", osVersion: 12.0)
+    public static let RockwellBold = FontName.fontName(fontName: "Rockwell-Bold", osVersion: 12.0)
+    public static let RockwellBoldItalic = FontName.fontName(fontName: "Rockwell-BoldItalic", osVersion: 12.0)
     public static let SnellRoundhandBold = FontName.fontName(fontName: "SnellRoundhand-Bold")
     public static let SnellRoundhand = FontName.fontName(fontName: "SnellRoundhand")
     public static let SnellRoundhandBlack = FontName.fontName(fontName: "SnellRoundhand-Black")
@@ -256,9 +262,16 @@ public struct FontName {
     public static let SavoyeLetPlain = FontName.fontName(fontName: "SavoyeLetPlain")
     public static let BodoniOrnamentsITCTT = FontName.fontName(fontName: "BodoniOrnamentsITCTT")
     public static let Symbol = FontName.fontName(fontName: "Symbol")
+    public static let CharterBlackItalic = FontName.fontName(fontName: "Charter-BlackItalic", osVersion: 12.0)
+    public static let CharterBold = FontName.fontName(fontName: "Charter-Bold", osVersion: 12.0)
+    public static let CharterRoman = FontName.fontName(fontName: "Charter-Roman", osVersion: 12.0)
+    public static let CharterBlack = FontName.fontName(fontName: "Charter-Black", osVersion: 12.0)
+    public static let CharterBoldItalic = FontName.fontName(fontName: "Charter-BoldItalic", osVersion: 12.0)
+    public static let CharterItalic = FontName.fontName(fontName: "Charter-Italic", osVersion: 12.0)
     public static let MenloItalic = FontName.fontName(fontName: "Menlo-Italic")
     public static let MenloBold = FontName.fontName(fontName: "Menlo-Bold")
     public static let MenloRegular = FontName.fontName(fontName: "Menlo-Regular")
+    public static let NotoNastaliqUrdu = FontName.fontName(fontName: "NotoNastaliqUrdu", osVersion: 11.0)
     public static let MenloBoldItalic = FontName.fontName(fontName: "Menlo-BoldItalic")
     public static let BodoniSvtyTwoSCITCTTBook = FontName.fontName(fontName: "BodoniSvtyTwoSCITCTT-Book")
     public static let DINAlternateBold = FontName.fontName(fontName: "DINAlternate-Bold")
@@ -273,6 +286,7 @@ public struct FontName {
     public static let PingFangSCLight = FontName.fontName(fontName: "PingFangSC-Light", osVersion: 9.0)
     public static let PingFangSCMedium = FontName.fontName(fontName: "PingFangSC-Medium", osVersion: 9.0)
     public static let MyanmarSangamMNBold = FontName.fontName(fontName: "MyanmarSangamMN-Bold", osVersion: 10.0)
+    public static let NotoSansChakmaRegular = FontName.fontName(fontName: "NotoSansChakma-Regular", osVersion: 12.0)
     public static let MyanmarSangamMN = FontName.fontName(fontName: "MyanmarSangamMN", osVersion: 10.0)
     public static let EuphemiaUCASItalic = FontName.fontName(fontName: "EuphemiaUCAS-Italic")
     public static let EuphemiaUCAS = FontName.fontName(fontName: "EuphemiaUCAS")
@@ -330,6 +344,7 @@ extension FontName {
             GillSansUltraBold,
             MarkerFeltThin,
             MarkerFeltWide,
+            HiraMaruProNW4,
             Thonburi,
             ThonburiBold,
             ThonburiLight,
@@ -444,6 +459,7 @@ extension FontName {
             ArialItalicMT,
             PartyLetPlain,
             Chalkduster,
+            KefaRegular,
             HiraKakuProNW6,
             HiraKakuProNW3,
             HoeflerTextItalic,
@@ -495,6 +511,10 @@ extension FontName {
             DevanagariSangamMNBold,
             OriyaSangamMN,
             OriyaSangamMNBold,
+            RockwellItalic,
+            RockwellRegular,
+            RockwellBold,
+            RockwellBoldItalic,
             SnellRoundhandBold,
             SnellRoundhand,
             SnellRoundhandBlack,
@@ -538,9 +558,16 @@ extension FontName {
             SavoyeLetPlain,
             BodoniOrnamentsITCTT,
             Symbol,
+            CharterBlackItalic,
+            CharterBold,
+            CharterRoman,
+            CharterBlack,
+            CharterBoldItalic,
+            CharterItalic,
             MenloItalic,
             MenloBold,
             MenloRegular,
+            NotoNastaliqUrdu,
             MenloBoldItalic,
             BodoniSvtyTwoSCITCTTBook,
             DINAlternateBold,
@@ -555,6 +582,7 @@ extension FontName {
             PingFangSCLight,
             PingFangSCMedium,
             MyanmarSangamMNBold,
+            NotoSansChakmaRegular,
             MyanmarSangamMN,
             EuphemiaUCASItalic,
             EuphemiaUCAS,
